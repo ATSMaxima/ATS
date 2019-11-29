@@ -1,0 +1,19 @@
+package TEST;
+
+import org.testng.annotations.Test;
+
+import POM.ATS_Login;
+
+public class TEST_ATS_Registration extends BaseTest{
+	@Test
+	public void registration()
+	{
+		l = extent.createTest("registration");
+		ATS_Login al = new ATS_Login(driver);
+		al.newUserClick();
+		ATS_Registration ar = new ATS_Registration();
+		
+		
+	}
+
+}

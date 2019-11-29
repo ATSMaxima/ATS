@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Execution Start : Test]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Start :DD_Login_data]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Success :DD_Login_data]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Start :DD_Login_data]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Success :DD_Login_data]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Start :DD_Login_data]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Success :DD_Login_data]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Start :DD_Login_data]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Success :DD_Login_data]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="45696" started-at="2019-11-27T12:27:54Z" finished-at="2019-11-27T12:28:40Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="45696" started-at="2019-11-27T12:27:54Z" finished-at="2019-11-27T12:28:40Z">
+      <class name="TEST.TestDataProviderATSLogin">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:TEST.TestDataProviderATSLogin@9d9c55]" name="startReport" is-config="true" duration-ms="224" started-at="2019-11-27T12:27:54Z" finished-at="2019-11-27T12:27:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@9d9c55]" name="preCondition" is-config="true" duration-ms="4436" started-at="2019-11-27T12:27:55Z" finished-at="2019-11-27T12:27:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="DD_Login_data(java.lang.String, java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@9d9c55]" name="DD_Login_data" duration-ms="6015" started-at="2019-11-27T12:27:59Z" data-provider="Authentication" finished-at="2019-11-27T12:28:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kunal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kunal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Method Start :DD_Login_data]]>
+            </line>
+            <line>
+              <![CDATA[Test Method Success :DD_Login_data]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DD_Login_data -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:TEST.TestDataProviderATSLogin@9d9c55]" name="postCondition" is-config="true" duration-ms="149" started-at="2019-11-27T12:28:05Z" finished-at="2019-11-27T12:28:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@9d9c55]" name="preCondition" is-config="true" duration-ms="3749" started-at="2019-11-27T12:28:05Z" finished-at="2019-11-27T12:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="DD_Login_data(java.lang.String, java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@9d9c55]" name="DD_Login_data" duration-ms="5879" started-at="2019-11-27T12:28:09Z" data-provider="Authentication" finished-at="2019-11-27T12:28:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vivek]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vivek]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Method Start :DD_Login_data]]>
+            </line>
+            <line>
+              <![CDATA[Test Method Success :DD_Login_data]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DD_Login_data -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:TEST.TestDataProviderATSLogin@9d9c55]" name="postCondition" is-config="true" duration-ms="301" started-at="2019-11-27T12:28:15Z" finished-at="2019-11-27T12:28:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@9d9c55]" name="preCondition" is-config="true" duration-ms="3681" started-at="2019-11-27T12:28:15Z" finished-at="2019-11-27T12:28:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="DD_Login_data(java.lang.String, java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@9d9c55]" name="DD_Login_data" duration-ms="5833" started-at="2019-11-27T12:28:19Z" data-provider="Authentication" finished-at="2019-11-27T12:28:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hitesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hitesh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Method Start :DD_Login_data]]>
+            </line>
+            <line>
+              <![CDATA[Test Method Success :DD_Login_data]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DD_Login_data -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:TEST.TestDataProviderATSLogin@9d9c55]" name="postCondition" is-config="true" duration-ms="631" started-at="2019-11-27T12:28:25Z" finished-at="2019-11-27T12:28:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@9d9c55]" name="preCondition" is-config="true" duration-ms="3846" started-at="2019-11-27T12:28:26Z" finished-at="2019-11-27T12:28:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="DD_Login_data(java.lang.String, java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@9d9c55]" name="DD_Login_data" duration-ms="9667" started-at="2019-11-27T12:28:29Z" data-provider="Authentication" finished-at="2019-11-27T12:28:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ashingote]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ashingote]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Method Start :DD_Login_data]]>
+            </line>
+            <line>
+              <![CDATA[Test Method Success :DD_Login_data]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DD_Login_data -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:TEST.TestDataProviderATSLogin@9d9c55]" name="postCondition" is-config="true" duration-ms="165" started-at="2019-11-27T12:28:39Z" finished-at="2019-11-27T12:28:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:TEST.TestDataProviderATSLogin@9d9c55]" name="endReport" is-config="true" duration-ms="514" started-at="2019-11-27T12:28:39Z" finished-at="2019-11-27T12:28:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- TEST.TestDataProviderATSLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

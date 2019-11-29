@@ -1,0 +1,16 @@
+package TEST;
+
+import org.testng.annotations.Test;
+
+import POM.ATS_Login;
+
+public class ATS_AddCandidateManually extends BaseTest{
+	@Test
+	public void addCandidateManually()
+	{
+		l = extent.createTest("resumeUpload");
+		ATS_Login al = new ATS_Login(driver);
+		al.loginATS(UN, PW);
+	}
+
+}

@@ -1,0 +1,46 @@
+package TEST;
+
+import org.testng.annotations.DataProvider ;
+import org.testng.annotations.Test;
+
+import Generic.AutoConstants;
+import Generic.ExcelReader;
+import POM.ATS_Login;
+
+public class TestDataProviderATSLogin extends BaseTest implements AutoConstants{
+	@Test(dataProvider="Authentication")
+	public void Registration_data(String sUserName,String sPassword)throws  Exception
+	{
+		l = extent.createTest("Registration_data");
+		ATS_Login rv = new ATS_Login(driver);
+		System.out.println(" User Name is " +sUserName);
+		System.out.println(" Password is " +sPassword);
+		rv.loginATS(sUserName, sUserName);
+		rv.logoutlist();
+		rv.logoutClick();
+		//CommonActions.homePageVerify(driver, 10, "Applicant Tracking System");
+		for (int i = 1; i < 5; i++) 
+		{	
+			//String str= driver.getTitle();
+			if(driver.getTitle().contains("Applicant Tracking System"))
+			{
+				ExcelReader.setExcelData("Sheet1", i, 2, "pass");
+			}
+			else
+			{	
+				ExcelReader.setExcelData("Sheet1", i, 2, "fail");						
+			}
+		}
+	}
+	
+	@DataProvider
+	public Object[][] Authentication() throws Exception
+	{
+		Object[][] testObjArray = ExcelReader.getTableArray(EXCEL_FILE_LOC,"Sheet1");
+		
+		System.out.println("array is " +testObjArray.toString());
+		return testObjArray;
+	}
+
+
+}

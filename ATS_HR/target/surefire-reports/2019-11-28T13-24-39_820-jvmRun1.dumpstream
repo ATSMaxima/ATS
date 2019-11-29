@@ -1,0 +1,6590 @@
+# Created at 2019-11-28T13:25:44.276
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Unknown Source)
+
+
+# Created at 2019-11-28T13:25:45.043
+Unexpected IOException with stream: [
+
+# Created at 2019-11-28T13:25:45.044
+Unexpected IOException with stream: 1
+
+# Created at 2019-11-28T13:25:45.045
+Unexpected IOException with stream: 5
+
+# Created at 2019-11-28T13:25:45.046
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:25:45.046
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:25:45.047
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:25:45.048
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-28T13:25:45.049
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:25:45.050
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:25:45.050
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:25:45.051
+Unexpected IOException with stream: 5
+
+# Created at 2019-11-28T13:25:45.053
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:25:45.053
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:25:45.054
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:25:45.055
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:25:45.056
+Unexpected IOException with stream: ]
+
+# Created at 2019-11-28T13:25:45.056
+Unexpected IOException with stream: [
+
+# Created at 2019-11-28T13:25:45.057
+Unexpected IOException with stream: W
+
+# Created at 2019-11-28T13:25:45.058
+Unexpected IOException with stream: A
+
+# Created at 2019-11-28T13:25:45.059
+Unexpected IOException with stream: R
+
+# Created at 2019-11-28T13:25:45.060
+Unexpected IOException with stream: N
+
+# Created at 2019-11-28T13:25:45.060
+Unexpected IOException with stream: I
+
+# Created at 2019-11-28T13:25:45.061
+Unexpected IOException with stream: N
+
+# Created at 2019-11-28T13:25:45.062
+Unexpected IOException with stream: G
+
+# Created at 2019-11-28T13:25:45.063
+Unexpected IOException with stream: ]
+
+# Created at 2019-11-28T13:25:45.064
+Unexpected IOException with stream: :
+
+# Created at 2019-11-28T13:25:45.065
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:45.066
+Unexpected IOException with stream: T
+
+# Created at 2019-11-28T13:25:45.067
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:25:45.067
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:25:45.068
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:45.069
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:25:45.070
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:45.070
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:45.071
+Unexpected IOException with stream: u
+
+# Created at 2019-11-28T13:25:45.072
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:25:45.073
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:45.074
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:25:45.074
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:45.079
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:25:45.081
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:25:45.082
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:45.083
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:25:45.084
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:25:45.085
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:25:45.085
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:25:45.086
+Unexpected IOException with stream: g
+
+# Created at 2019-11-28T13:25:45.087
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:45.088
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:25:45.089
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:45.089
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:45.090
+Unexpected IOException with stream: C
+
+# Created at 2019-11-28T13:25:45.091
+Unexpected IOException with stream: h
+
+# Created at 2019-11-28T13:25:45.091
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:45.092
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:45.092
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:25:45.093
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:45.094
+Unexpected IOException with stream: ,
+
+# Created at 2019-11-28T13:25:45.097
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:45.098
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:45.098
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:45.099
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:25:45.100
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:45.101
+Unexpected IOException with stream: y
+
+# Created at 2019-11-28T13:25:45.102
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:25:45.103
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:25:45.104
+Unexpected IOException with stream: g
+
+# Created at 2019-11-28T13:25:45.106
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:25:45.107
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:25:45.108
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:25:45.109
+Unexpected IOException with stream: 
+
+# Created at 2019-11-28T13:25:45.110
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.067
+Unexpected IOException with stream: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MXITD037', ip: '192.168.10.225', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\AMOL~1.SHI\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:61635}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ebde352143954915bafdc62536d91973
+*** Element info: {Using=xpath, value=//button[contains(text(),'Login')]}
+
+# Created at 2019-11-28T13:25:49.067
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.069
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2019-11-28T13:25:49.070
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.070
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+
+# Created at 2019-11-28T13:25:49.071
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.072
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+
+# Created at 2019-11-28T13:25:49.073
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.074
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+
+# Created at 2019-11-28T13:25:49.074
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.075
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created at 2019-11-28T13:25:49.076
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.077
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created at 2019-11-28T13:25:49.077
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.078
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created at 2019-11-28T13:25:49.079
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.080
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2019-11-28T13:25:49.081
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.081
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created at 2019-11-28T13:25:49.082
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.083
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+
+# Created at 2019-11-28T13:25:49.084
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.085
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+
+# Created at 2019-11-28T13:25:49.085
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.086
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+
+# Created at 2019-11-28T13:25:49.087
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.088
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+
+# Created at 2019-11-28T13:25:49.088
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.089
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+
+# Created at 2019-11-28T13:25:49.090
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.090
+Unexpected IOException with stream: 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+
+# Created at 2019-11-28T13:25:49.091
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.092
+Unexpected IOException with stream: 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+
+# Created at 2019-11-28T13:25:49.093
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.094
+Unexpected IOException with stream: 	at com.sun.proxy.$Proxy13.click(Unknown Source)
+
+# Created at 2019-11-28T13:25:49.094
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.095
+Unexpected IOException with stream: 	at POM.ATS_Login.loginATS(ATS_Login.java:36)
+
+# Created at 2019-11-28T13:25:49.096
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.096
+Unexpected IOException with stream: 	at TEST.TestLogin.DD_Login_data(TestLogin.java:32)
+
+# Created at 2019-11-28T13:25:49.097
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.097
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2019-11-28T13:25:49.098
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.099
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+
+# Created at 2019-11-28T13:25:49.100
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.100
+Unexpected IOException with stream: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+
+# Created at 2019-11-28T13:25:49.101
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.101
+Unexpected IOException with stream: 	at java.lang.reflect.Method.invoke(Unknown Source)
+
+# Created at 2019-11-28T13:25:49.102
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.103
+Unexpected IOException with stream: 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+
+# Created at 2019-11-28T13:25:49.103
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.104
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+
+# Created at 2019-11-28T13:25:49.104
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.105
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+
+# Created at 2019-11-28T13:25:49.106
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.107
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+
+# Created at 2019-11-28T13:25:49.107
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.108
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+
+# Created at 2019-11-28T13:25:49.109
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.110
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+
+# Created at 2019-11-28T13:25:49.111
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.112
+Unexpected IOException with stream: 	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+
+# Created at 2019-11-28T13:25:49.112
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.113
+Unexpected IOException with stream: 	at org.testng.TestRunner.run(TestRunner.java:505)
+
+# Created at 2019-11-28T13:25:49.114
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.115
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+
+# Created at 2019-11-28T13:25:49.116
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.117
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+
+# Created at 2019-11-28T13:25:49.118
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.118
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+
+# Created at 2019-11-28T13:25:49.119
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.120
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+
+# Created at 2019-11-28T13:25:49.120
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.121
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+
+# Created at 2019-11-28T13:25:49.122
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.122
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+
+# Created at 2019-11-28T13:25:49.123
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.124
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+
+# Created at 2019-11-28T13:25:49.125
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.125
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+
+# Created at 2019-11-28T13:25:49.126
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.126
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuites(TestNG.java:1049)
+
+# Created at 2019-11-28T13:25:49.127
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.128
+Unexpected IOException with stream: 	at org.testng.TestNG.run(TestNG.java:1017)
+
+# Created at 2019-11-28T13:25:49.128
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.129
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+
+# Created at 2019-11-28T13:25:49.129
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.130
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+
+# Created at 2019-11-28T13:25:49.131
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.131
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+
+# Created at 2019-11-28T13:25:49.132
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.133
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2019-11-28T13:25:49.133
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.134
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2019-11-28T13:25:49.134
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.135
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2019-11-28T13:25:49.136
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.136
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2019-11-28T13:25:49.137
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.137
+Unexpected IOException with stream: Test Method Success :DD_Login_data
+
+
+# Created at 2019-11-28T13:25:49.138
+Unexpected IOException: 6,1,TEST.TestLogin,DD_Login_data(TEST.TestLogin),null,null,null
+
+
+# Created at 2019-11-28T13:25:49.350
+Unexpected IOException: 8,1,TEST.TestLogin,postCondition(TEST.TestLogin),null,chrome not reachable\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'MXITD037'\002C ip: '192.168.10.225'\002C os.name: 'Windows 7'\002C os.arch: 'x86'\002C os.version: '6.1'\002C java.version: '1.8.0_161'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005CAMOL~1.SHI\005CAppData...}\002C goog:chromeOptions: {debuggerAddress: localhost:61635}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: ebde352143954915bafdc62536d91973,null,chrome not reachable\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'MXITD037'\002C ip: '192.168.10.225'\002C os.name: 'Windows 7'\002C os.arch: 'x86'\002C os.version: '6.1'\002C java.version: '1.8.0_161'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005CAMOL~1.SHI\005CAppData...}\002C goog:chromeOptions: {debuggerAddress: localhost:61635}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: ebde352143954915bafdc62536d91973,TestLogin>BaseTest.postCondition:91 \00BB WebDriver chrome not reachable\000A  (Sessio...,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'MXITD037'\002C ip: '192.168.10.225'\002C os.name: 'Windows 7'\002C os.arch: 'x86'\002C os.version: '6.1'\002C java.version: '1.8.0_161'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005CAMOL~1.SHI\005CAppData...}\002C goog:chromeOptions: {debuggerAddress: localhost:61635}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: ebde352143954915bafdc62536d91973\000A
+
+
+# Created at 2019-11-28T13:25:49.427
+Unexpected IOException with stream: S
+
+# Created at 2019-11-28T13:25:49.428
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:25:49.428
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:25:49.429
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:49.430
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:25:49.430
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:25:49.431
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:25:49.432
+Unexpected IOException with stream: g
+
+# Created at 2019-11-28T13:25:49.432
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:49.433
+Unexpected IOException with stream: C
+
+# Created at 2019-11-28T13:25:49.433
+Unexpected IOException with stream: h
+
+# Created at 2019-11-28T13:25:49.434
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:49.434
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:49.435
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:25:49.435
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:49.436
+Unexpected IOException with stream: D
+
+# Created at 2019-11-28T13:25:49.437
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:49.437
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:25:49.438
+Unexpected IOException with stream: v
+
+# Created at 2019-11-28T13:25:49.438
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:49.439
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:49.439
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:49.440
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:25:49.441
+Unexpected IOException with stream: 8
+
+# Created at 2019-11-28T13:25:49.441
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:25:49.442
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:25:49.442
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:25:49.443
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-28T13:25:49.443
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:25:49.444
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:25:49.445
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:25:49.445
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:25:49.446
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:25:49.446
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:25:49.447
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:49.447
+Unexpected IOException with stream: (
+
+# Created at 2019-11-28T13:25:49.448
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:49.448
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:25:49.449
+Unexpected IOException with stream: b
+
+# Created at 2019-11-28T13:25:49.449
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:25:49.450
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:25:49.451
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:25:49.451
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:25:49.452
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-28T13:25:49.452
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:25:49.453
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:49.453
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:25:49.454
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-28T13:25:49.454
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:25:49.455
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:25:49.456
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:25:49.456
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:25:49.457
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:25:49.457
+Unexpected IOException with stream: 1
+
+# Created at 2019-11-28T13:25:49.458
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-28T13:25:49.458
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:25:49.459
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:25:49.460
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:25:49.460
+Unexpected IOException with stream: b
+
+# Created at 2019-11-28T13:25:49.461
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:25:49.461
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:25:49.462
+Unexpected IOException with stream: 6
+
+# Created at 2019-11-28T13:25:49.462
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:25:49.463
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:25:49.463
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:49.464
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:25:49.464
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:25:49.465
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:25:49.465
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:25:49.466
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:25:49.467
+Unexpected IOException with stream: 6
+
+# Created at 2019-11-28T13:25:49.467
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:25:49.468
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-28T13:25:49.468
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:25:49.469
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:25:49.469
+Unexpected IOException with stream: 5
+
+# Created at 2019-11-28T13:25:49.470
+Unexpected IOException with stream: -
+
+# Created at 2019-11-28T13:25:49.470
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:49.471
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:49.471
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:25:49.472
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:25:49.472
+Unexpected IOException with stream: /
+
+# Created at 2019-11-28T13:25:49.473
+Unexpected IOException with stream: b
+
+# Created at 2019-11-28T13:25:49.473
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:49.474
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:25:49.474
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:25:49.475
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:25:49.476
+Unexpected IOException with stream: h
+
+# Created at 2019-11-28T13:25:49.476
+Unexpected IOException with stream: -
+
+# Created at 2019-11-28T13:25:49.477
+Unexpected IOException with stream: h
+
+# Created at 2019-11-28T13:25:49.477
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:49.478
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:25:49.479
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:25:49.479
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:25:49.480
+Unexpected IOException with stream: /
+
+# Created at 2019-11-28T13:25:49.480
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-28T13:25:49.481
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:25:49.481
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:25:49.482
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:25:49.482
+Unexpected IOException with stream: @
+
+# Created at 2019-11-28T13:25:49.483
+Unexpected IOException with stream: {
+
+# Created at 2019-11-28T13:25:49.483
+Unexpected IOException with stream: #
+
+# Created at 2019-11-28T13:25:49.484
+Unexpected IOException with stream: 8
+
+# Created at 2019-11-28T13:25:49.484
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:25:49.485
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:25:49.489
+Unexpected IOException with stream: }
+
+# Created at 2019-11-28T13:25:49.490
+Unexpected IOException with stream: )
+
+# Created at 2019-11-28T13:25:49.490
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:49.491
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:49.492
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:25:49.492
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:49.493
+Unexpected IOException with stream: p
+
+# Created at 2019-11-28T13:25:49.494
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:49.494
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:49.495
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:25:49.495
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:49.496
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-28T13:25:49.496
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:25:49.497
+Unexpected IOException with stream: 6
+
+# Created at 2019-11-28T13:25:49.497
+Unexpected IOException with stream: 1
+
+# Created at 2019-11-28T13:25:49.498
+Unexpected IOException with stream: 5
+
+# Created at 2019-11-28T13:25:49.498
+Unexpected IOException with stream: 
+
+# Created at 2019-11-28T13:25:49.499
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.500
+Unexpected IOException with stream: O
+
+# Created at 2019-11-28T13:25:49.500
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:25:49.501
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:25:49.501
+Unexpected IOException with stream: y
+
+# Created at 2019-11-28T13:25:49.502
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:49.502
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:25:49.503
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:49.504
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:25:49.504
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:25:49.505
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:25:49.505
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:49.506
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:25:49.507
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:49.507
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:25:49.508
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:25:49.508
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:49.509
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:25:49.510
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:25:49.510
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:25:49.511
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:49.511
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:25:49.512
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:25:49.512
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:49.513
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:25:49.513
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:49.514
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:49.515
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:49.515
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:25:49.516
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:25:49.516
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:25:49.517
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:49.517
+Unexpected IOException with stream: w
+
+# Created at 2019-11-28T13:25:49.518
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:49.519
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:25:49.519
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:25:49.520
+Unexpected IOException with stream: 
+
+# Created at 2019-11-28T13:25:49.520
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:49.521
+Unexpected IOException with stream: P
+
+# Created at 2019-11-28T13:25:49.521
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:25:49.522
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:49.522
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:25:49.523
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:25:49.523
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:49.524
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:49.525
+Unexpected IOException with stream: p
+
+# Created at 2019-11-28T13:25:49.525
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:49.526
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:49.526
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:25:49.527
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:49.527
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:25:49.528
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:25:49.528
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:49.529
+Unexpected IOException with stream: p
+
+# Created at 2019-11-28T13:25:49.530
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:49.530
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:49.531
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:25:49.531
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:25:49.537
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:49.538
+Unexpected IOException with stream: u
+
+# Created at 2019-11-28T13:25:49.539
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:25:49.539
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:49.540
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:25:49.540
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:49.541
+Unexpected IOException with stream: b
+
+# Created at 2019-11-28T13:25:49.542
+Unexpected IOException with stream: y
+
+# Created at 2019-11-28T13:25:49.542
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:49.543
+Unexpected IOException with stream: C
+
+# Created at 2019-11-28T13:25:49.543
+Unexpected IOException with stream: h
+
+# Created at 2019-11-28T13:25:49.544
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:49.544
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:49.545
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:25:49.545
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:49.546
+Unexpected IOException with stream: D
+
+# Created at 2019-11-28T13:25:49.546
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:49.547
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:25:49.547
+Unexpected IOException with stream: v
+
+# Created at 2019-11-28T13:25:49.548
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:49.549
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:49.549
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:49.550
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:25:49.551
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:25:49.551
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:25:49.552
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:49.553
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:49.553
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:49.554
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:25:49.554
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:25:49.555
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:25:49.556
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:49.556
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:25:49.557
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:49.558
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:25:49.559
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:49.559
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:25:49.560
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:25:49.560
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:49.561
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:25:49.561
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:49.562
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:25:49.563
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:25:49.563
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:49.564
+Unexpected IOException with stream: w
+
+# Created at 2019-11-28T13:25:49.564
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:49.565
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:49.566
+Unexpected IOException with stream: k
+
+# Created at 2019-11-28T13:25:49.566
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:25:49.567
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:49.567
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:25:49.568
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:49.568
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:49.569
+Unexpected IOException with stream: p
+
+# Created at 2019-11-28T13:25:49.569
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:49.570
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:49.570
+Unexpected IOException with stream: v
+
+# Created at 2019-11-28T13:25:49.571
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:49.571
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:25:49.572
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:25:49.573
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:49.573
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:25:49.574
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:25:49.574
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:25:49.575
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:49.575
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:25:49.576
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:25:49.576
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:49.577
+Unexpected IOException with stream: b
+
+# Created at 2019-11-28T13:25:49.577
+Unexpected IOException with stream: y
+
+# Created at 2019-11-28T13:25:49.578
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:49.578
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:25:49.579
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:25:49.579
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:25:49.580
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:25:49.581
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:25:49.581
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:25:49.582
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:49.582
+Unexpected IOException with stream: u
+
+# Created at 2019-11-28T13:25:49.583
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:25:49.583
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:49.584
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:25:49.584
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:49.585
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:25:49.585
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:49.586
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:25:49.586
+Unexpected IOException with stream: 
+
+# Created at 2019-11-28T13:25:49.587
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:51.657
+Unexpected IOException with stream: Nov 28, 2019 1:25:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created at 2019-11-28T13:25:53.464
+Unexpected IOException with stream: Test Method Skipped :DD_Login_data
+
+
+# Created at 2019-11-28T13:25:53.466
+Unexpected IOException: 9,1,TEST.TestLogin,DD_Login_data(TEST.TestLogin),null,chrome not reachable\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'MXITD037'\002C ip: '192.168.10.225'\002C os.name: 'Windows 7'\002C os.arch: 'x86'\002C os.version: '6.1'\002C java.version: '1.8.0_161'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005CAMOL~1.SHI\005CAppData...}\002C goog:chromeOptions: {debuggerAddress: localhost:61635}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: ebde352143954915bafdc62536d91973,null
+
+
+# Created at 2019-11-28T13:25:54.155
+Unexpected IOException with stream: S
+
+# Created at 2019-11-28T13:25:54.156
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:25:54.157
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:25:54.158
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:54.159
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:25:54.159
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:25:54.160
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:25:54.161
+Unexpected IOException with stream: g
+
+# Created at 2019-11-28T13:25:54.161
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:54.162
+Unexpected IOException with stream: C
+
+# Created at 2019-11-28T13:25:54.163
+Unexpected IOException with stream: h
+
+# Created at 2019-11-28T13:25:54.164
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:54.165
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:54.166
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:25:54.167
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:54.168
+Unexpected IOException with stream: D
+
+# Created at 2019-11-28T13:25:54.169
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:54.170
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:25:54.170
+Unexpected IOException with stream: v
+
+# Created at 2019-11-28T13:25:54.171
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:54.172
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:54.173
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:54.173
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:25:54.174
+Unexpected IOException with stream: 8
+
+# Created at 2019-11-28T13:25:54.175
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:25:54.175
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:25:54.176
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:25:54.177
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-28T13:25:54.178
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:25:54.179
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:25:54.180
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:25:54.181
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:25:54.181
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:25:54.182
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:25:54.182
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:54.183
+Unexpected IOException with stream: (
+
+# Created at 2019-11-28T13:25:54.184
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:54.184
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:25:54.185
+Unexpected IOException with stream: b
+
+# Created at 2019-11-28T13:25:54.185
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:25:54.186
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:25:54.187
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:25:54.187
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:25:54.188
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-28T13:25:54.189
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:25:54.189
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:54.190
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:25:54.190
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-28T13:25:54.191
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:25:54.192
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:25:54.192
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:25:54.193
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:25:54.193
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:25:54.194
+Unexpected IOException with stream: 1
+
+# Created at 2019-11-28T13:25:54.194
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-28T13:25:54.195
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:25:54.196
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:25:54.196
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:25:54.197
+Unexpected IOException with stream: b
+
+# Created at 2019-11-28T13:25:54.198
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:25:54.198
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:25:54.199
+Unexpected IOException with stream: 6
+
+# Created at 2019-11-28T13:25:54.199
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:25:54.200
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:25:54.200
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:54.201
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:25:54.201
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:25:54.202
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:25:54.202
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:25:54.203
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:25:54.204
+Unexpected IOException with stream: 6
+
+# Created at 2019-11-28T13:25:54.204
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:25:54.205
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-28T13:25:54.205
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:25:54.206
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:25:54.206
+Unexpected IOException with stream: 5
+
+# Created at 2019-11-28T13:25:54.207
+Unexpected IOException with stream: -
+
+# Created at 2019-11-28T13:25:54.207
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:54.208
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:54.209
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:25:54.209
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:25:54.210
+Unexpected IOException with stream: /
+
+# Created at 2019-11-28T13:25:54.211
+Unexpected IOException with stream: b
+
+# Created at 2019-11-28T13:25:54.211
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:54.212
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:25:54.213
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:25:54.213
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:25:54.214
+Unexpected IOException with stream: h
+
+# Created at 2019-11-28T13:25:54.215
+Unexpected IOException with stream: -
+
+# Created at 2019-11-28T13:25:54.215
+Unexpected IOException with stream: h
+
+# Created at 2019-11-28T13:25:54.216
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:54.217
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:25:54.218
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:25:54.219
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:25:54.220
+Unexpected IOException with stream: /
+
+# Created at 2019-11-28T13:25:54.221
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-28T13:25:54.221
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:25:54.225
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:25:54.226
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:25:54.227
+Unexpected IOException with stream: @
+
+# Created at 2019-11-28T13:25:54.228
+Unexpected IOException with stream: {
+
+# Created at 2019-11-28T13:25:54.229
+Unexpected IOException with stream: #
+
+# Created at 2019-11-28T13:25:54.230
+Unexpected IOException with stream: 8
+
+# Created at 2019-11-28T13:25:54.231
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:25:54.231
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:25:54.232
+Unexpected IOException with stream: }
+
+# Created at 2019-11-28T13:25:54.233
+Unexpected IOException with stream: )
+
+# Created at 2019-11-28T13:25:54.233
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:54.234
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:54.234
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:25:54.235
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:54.236
+Unexpected IOException with stream: p
+
+# Created at 2019-11-28T13:25:54.236
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:54.237
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:54.238
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:25:54.238
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:54.239
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:25:54.239
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-28T13:25:54.240
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:25:54.241
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:25:54.241
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:25:54.242
+Unexpected IOException with stream: 
+
+# Created at 2019-11-28T13:25:54.243
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:54.244
+Unexpected IOException with stream: O
+
+# Created at 2019-11-28T13:25:54.244
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:25:54.245
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:25:54.246
+Unexpected IOException with stream: y
+
+# Created at 2019-11-28T13:25:54.247
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:54.248
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:25:54.249
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:54.249
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:25:54.250
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:25:54.250
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:25:54.251
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:54.251
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:25:54.252
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:54.253
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:25:54.253
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:25:54.254
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:54.254
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:25:54.255
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:25:54.255
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:25:54.256
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:54.256
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:25:54.257
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:25:54.258
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:54.258
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:25:54.259
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:54.259
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:54.260
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:54.261
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:25:54.262
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:25:54.262
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:25:54.263
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:54.264
+Unexpected IOException with stream: w
+
+# Created at 2019-11-28T13:25:54.264
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:54.265
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:25:54.266
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:25:54.266
+Unexpected IOException with stream: 
+
+# Created at 2019-11-28T13:25:54.267
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:54.267
+Unexpected IOException with stream: P
+
+# Created at 2019-11-28T13:25:54.268
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:25:54.269
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:54.270
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:25:54.270
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:25:54.271
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:54.271
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:54.272
+Unexpected IOException with stream: p
+
+# Created at 2019-11-28T13:25:54.273
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:54.274
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:54.275
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:25:54.275
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:54.276
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:25:54.277
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:25:54.278
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:54.278
+Unexpected IOException with stream: p
+
+# Created at 2019-11-28T13:25:54.279
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:54.280
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:54.280
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:25:54.281
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:25:54.282
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:54.282
+Unexpected IOException with stream: u
+
+# Created at 2019-11-28T13:25:54.283
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:25:54.284
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:54.284
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:25:54.285
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:54.286
+Unexpected IOException with stream: b
+
+# Created at 2019-11-28T13:25:54.286
+Unexpected IOException with stream: y
+
+# Created at 2019-11-28T13:25:54.287
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:54.287
+Unexpected IOException with stream: C
+
+# Created at 2019-11-28T13:25:54.288
+Unexpected IOException with stream: h
+
+# Created at 2019-11-28T13:25:54.289
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:54.290
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:54.291
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:25:54.291
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:54.292
+Unexpected IOException with stream: D
+
+# Created at 2019-11-28T13:25:54.292
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:54.293
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:25:54.293
+Unexpected IOException with stream: v
+
+# Created at 2019-11-28T13:25:54.294
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:54.295
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:54.296
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:54.297
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:25:54.298
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:25:54.299
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:25:54.299
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:54.300
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:54.300
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:54.301
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:25:54.302
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:25:54.303
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:25:54.303
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:54.304
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:25:54.304
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:54.305
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:25:54.305
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:54.306
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:25:54.307
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:25:54.308
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:54.309
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:25:54.309
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:54.310
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:25:54.311
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:25:54.311
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:54.312
+Unexpected IOException with stream: w
+
+# Created at 2019-11-28T13:25:54.313
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:54.313
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:54.314
+Unexpected IOException with stream: k
+
+# Created at 2019-11-28T13:25:54.315
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:25:54.315
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:54.316
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:25:54.316
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:54.317
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:54.317
+Unexpected IOException with stream: p
+
+# Created at 2019-11-28T13:25:54.318
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:54.318
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:54.319
+Unexpected IOException with stream: v
+
+# Created at 2019-11-28T13:25:54.319
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:54.320
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:25:54.321
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:25:54.322
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:54.323
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:25:54.323
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:25:54.324
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:25:54.325
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:54.325
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:25:54.326
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:25:54.326
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:54.327
+Unexpected IOException with stream: b
+
+# Created at 2019-11-28T13:25:54.327
+Unexpected IOException with stream: y
+
+# Created at 2019-11-28T13:25:54.328
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:54.329
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:25:54.329
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:25:54.330
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:25:54.330
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:25:54.331
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:25:54.332
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:25:54.332
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:54.333
+Unexpected IOException with stream: u
+
+# Created at 2019-11-28T13:25:54.333
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:25:54.334
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:54.335
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:25:54.335
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:54.336
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:25:54.336
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:54.337
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:25:54.337
+Unexpected IOException with stream: 
+
+# Created at 2019-11-28T13:25:54.338
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:25:56.461
+Unexpected IOException with stream: Nov 28, 2019 1:25:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created at 2019-11-28T13:25:58.474
+Unexpected IOException with stream: [
+
+# Created at 2019-11-28T13:25:58.475
+Unexpected IOException with stream: 1
+
+# Created at 2019-11-28T13:25:58.476
+Unexpected IOException with stream: 5
+
+# Created at 2019-11-28T13:25:58.477
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:25:58.478
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:25:58.479
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:25:58.481
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-28T13:25:58.483
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:25:58.484
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:25:58.485
+Unexpected IOException with stream: 5
+
+# Created at 2019-11-28T13:25:58.486
+Unexpected IOException with stream: 8
+
+# Created at 2019-11-28T13:25:58.486
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:25:58.487
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:25:58.488
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:25:58.488
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-28T13:25:58.489
+Unexpected IOException with stream: ]
+
+# Created at 2019-11-28T13:25:58.490
+Unexpected IOException with stream: [
+
+# Created at 2019-11-28T13:25:58.491
+Unexpected IOException with stream: W
+
+# Created at 2019-11-28T13:25:58.491
+Unexpected IOException with stream: A
+
+# Created at 2019-11-28T13:25:58.492
+Unexpected IOException with stream: R
+
+# Created at 2019-11-28T13:25:58.493
+Unexpected IOException with stream: N
+
+# Created at 2019-11-28T13:25:58.493
+Unexpected IOException with stream: I
+
+# Created at 2019-11-28T13:25:58.494
+Unexpected IOException with stream: N
+
+# Created at 2019-11-28T13:25:58.495
+Unexpected IOException with stream: G
+
+# Created at 2019-11-28T13:25:58.495
+Unexpected IOException with stream: ]
+
+# Created at 2019-11-28T13:25:58.496
+Unexpected IOException with stream: :
+
+# Created at 2019-11-28T13:25:58.497
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:58.498
+Unexpected IOException with stream: T
+
+# Created at 2019-11-28T13:25:58.498
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:25:58.499
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:25:58.500
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:58.500
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:25:58.501
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:58.502
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:58.502
+Unexpected IOException with stream: u
+
+# Created at 2019-11-28T13:25:58.503
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:25:58.504
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:58.504
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:25:58.505
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:58.506
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:25:58.507
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:25:58.507
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:58.508
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:25:58.509
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:25:58.510
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:25:58.510
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:25:58.511
+Unexpected IOException with stream: g
+
+# Created at 2019-11-28T13:25:58.512
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:58.513
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:25:58.513
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:58.514
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:58.515
+Unexpected IOException with stream: C
+
+# Created at 2019-11-28T13:25:58.515
+Unexpected IOException with stream: h
+
+# Created at 2019-11-28T13:25:58.516
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:58.517
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:25:58.518
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:25:58.519
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:58.519
+Unexpected IOException with stream: ,
+
+# Created at 2019-11-28T13:25:58.520
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:25:58.521
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:58.522
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:25:58.522
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:25:58.523
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:25:58.523
+Unexpected IOException with stream: y
+
+# Created at 2019-11-28T13:25:58.524
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:25:58.525
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:25:58.526
+Unexpected IOException with stream: g
+
+# Created at 2019-11-28T13:25:58.526
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:25:58.527
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:25:58.528
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:25:58.529
+Unexpected IOException with stream: 
+
+# Created at 2019-11-28T13:25:58.529
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:26:02.478
+Unexpected IOException with stream: [
+
+# Created at 2019-11-28T13:26:02.479
+Unexpected IOException with stream: 1
+
+# Created at 2019-11-28T13:26:02.479
+Unexpected IOException with stream: 5
+
+# Created at 2019-11-28T13:26:02.480
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:02.481
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:26:02.482
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:26:02.482
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-28T13:26:02.483
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:02.484
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:02.484
+Unexpected IOException with stream: 6
+
+# Created at 2019-11-28T13:26:02.485
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-28T13:26:02.486
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:02.487
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:26:02.487
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:02.488
+Unexpected IOException with stream: 6
+
+# Created at 2019-11-28T13:26:02.489
+Unexpected IOException with stream: ]
+
+# Created at 2019-11-28T13:26:02.489
+Unexpected IOException with stream: [
+
+# Created at 2019-11-28T13:26:02.490
+Unexpected IOException with stream: W
+
+# Created at 2019-11-28T13:26:02.491
+Unexpected IOException with stream: A
+
+# Created at 2019-11-28T13:26:02.492
+Unexpected IOException with stream: R
+
+# Created at 2019-11-28T13:26:02.492
+Unexpected IOException with stream: N
+
+# Created at 2019-11-28T13:26:02.493
+Unexpected IOException with stream: I
+
+# Created at 2019-11-28T13:26:02.494
+Unexpected IOException with stream: N
+
+# Created at 2019-11-28T13:26:02.494
+Unexpected IOException with stream: G
+
+# Created at 2019-11-28T13:26:02.495
+Unexpected IOException with stream: ]
+
+# Created at 2019-11-28T13:26:02.496
+Unexpected IOException with stream: :
+
+# Created at 2019-11-28T13:26:02.497
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:02.497
+Unexpected IOException with stream: T
+
+# Created at 2019-11-28T13:26:02.498
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:02.499
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:26:02.499
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:02.500
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:02.501
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:02.501
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:02.502
+Unexpected IOException with stream: u
+
+# Created at 2019-11-28T13:26:02.503
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:02.503
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:02.504
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:02.505
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:02.505
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:02.506
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:02.506
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:02.507
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:02.507
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:02.508
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:02.509
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:02.509
+Unexpected IOException with stream: g
+
+# Created at 2019-11-28T13:26:02.510
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:02.510
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:02.511
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:02.511
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:02.512
+Unexpected IOException with stream: C
+
+# Created at 2019-11-28T13:26:02.512
+Unexpected IOException with stream: h
+
+# Created at 2019-11-28T13:26:02.513
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:02.513
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:02.514
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:26:02.514
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:02.515
+Unexpected IOException with stream: ,
+
+# Created at 2019-11-28T13:26:02.515
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:02.516
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:02.516
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:02.517
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:02.517
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:02.518
+Unexpected IOException with stream: y
+
+# Created at 2019-11-28T13:26:02.518
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:02.519
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:02.519
+Unexpected IOException with stream: g
+
+# Created at 2019-11-28T13:26:02.520
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:02.520
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:02.521
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:02.522
+Unexpected IOException with stream: 
+
+# Created at 2019-11-28T13:26:02.522
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:26:08.509
+Unexpected IOException with stream: [
+
+# Created at 2019-11-28T13:26:08.510
+Unexpected IOException with stream: 1
+
+# Created at 2019-11-28T13:26:08.511
+Unexpected IOException with stream: 5
+
+# Created at 2019-11-28T13:26:08.513
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:08.514
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:26:08.515
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:26:08.516
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-28T13:26:08.517
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:08.519
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:08.520
+Unexpected IOException with stream: 6
+
+# Created at 2019-11-28T13:26:08.521
+Unexpected IOException with stream: 8
+
+# Created at 2019-11-28T13:26:08.523
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:08.524
+Unexpected IOException with stream: 5
+
+# Created at 2019-11-28T13:26:08.526
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:26:08.527
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:08.529
+Unexpected IOException with stream: ]
+
+# Created at 2019-11-28T13:26:08.530
+Unexpected IOException with stream: [
+
+# Created at 2019-11-28T13:26:08.531
+Unexpected IOException with stream: W
+
+# Created at 2019-11-28T13:26:08.532
+Unexpected IOException with stream: A
+
+# Created at 2019-11-28T13:26:08.535
+Unexpected IOException with stream: R
+
+# Created at 2019-11-28T13:26:08.536
+Unexpected IOException with stream: N
+
+# Created at 2019-11-28T13:26:08.536
+Unexpected IOException with stream: I
+
+# Created at 2019-11-28T13:26:08.537
+Unexpected IOException with stream: N
+
+# Created at 2019-11-28T13:26:08.538
+Unexpected IOException with stream: G
+
+# Created at 2019-11-28T13:26:08.539
+Unexpected IOException with stream: ]
+
+# Created at 2019-11-28T13:26:08.540
+Unexpected IOException with stream: :
+
+# Created at 2019-11-28T13:26:08.540
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:08.541
+Unexpected IOException with stream: T
+
+# Created at 2019-11-28T13:26:08.542
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:08.543
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:26:08.543
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:08.544
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:08.545
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:08.546
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:08.547
+Unexpected IOException with stream: u
+
+# Created at 2019-11-28T13:26:08.548
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:08.549
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:08.550
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:08.551
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:08.551
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:08.552
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:08.553
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:08.554
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:08.555
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:08.556
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:08.557
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:08.561
+Unexpected IOException with stream: g
+
+# Created at 2019-11-28T13:26:08.562
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:08.562
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:08.563
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:08.563
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:08.564
+Unexpected IOException with stream: C
+
+# Created at 2019-11-28T13:26:08.565
+Unexpected IOException with stream: h
+
+# Created at 2019-11-28T13:26:08.565
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:08.566
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:08.567
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:26:08.567
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:08.568
+Unexpected IOException with stream: ,
+
+# Created at 2019-11-28T13:26:08.569
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:08.569
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:08.570
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:08.571
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:08.571
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:08.572
+Unexpected IOException with stream: y
+
+# Created at 2019-11-28T13:26:08.573
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:08.573
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:08.574
+Unexpected IOException with stream: g
+
+# Created at 2019-11-28T13:26:08.575
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:08.575
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:08.576
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:08.577
+Unexpected IOException with stream: 
+
+# Created at 2019-11-28T13:26:08.578
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:26:12.526
+Unexpected IOException: 8,1,TEST.TestLogin,preCondition(TEST.TestLogin),null,chrome not reachable\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'MXITD037'\002C ip: '192.168.10.225'\002C os.name: 'Windows 7'\002C os.arch: 'x86'\002C os.version: '6.1'\002C java.version: '1.8.0_161'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005CAMOL~1.SHI\005CAppData...}\002C goog:chromeOptions: {debuggerAddress: localhost:61686}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0b285a0450b8f196ede08818c93b3b9a,null,chrome not reachable\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'MXITD037'\002C ip: '192.168.10.225'\002C os.name: 'Windows 7'\002C os.arch: 'x86'\002C os.version: '6.1'\002C java.version: '1.8.0_161'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005CAMOL~1.SHI\005CAppData...}\002C goog:chromeOptions: {debuggerAddress: localhost:61686}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0b285a0450b8f196ede08818c93b3b9a,TestLogin>BaseTest.preCondition:75 \00BB WebDriver chrome not reachable\000A  (Session...,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'MXITD037'\002C ip: '192.168.10.225'\002C os.name: 'Windows 7'\002C os.arch: 'x86'\002C os.version: '6.1'\002C java.version: '1.8.0_161'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005CAMOL~1.SHI\005CAppData...}\002C goog:chromeOptions: {debuggerAddress: localhost:61686}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0b285a0450b8f196ede08818c93b3b9a\000A
+
+
+# Created at 2019-11-28T13:26:12.527
+Unexpected IOException with stream: Test Method Skipped :DD_Login_data
+
+
+# Created at 2019-11-28T13:26:12.528
+Unexpected IOException: 9,1,TEST.TestLogin,DD_Login_data(TEST.TestLogin),null,chrome not reachable\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'MXITD037'\002C ip: '192.168.10.225'\002C os.name: 'Windows 7'\002C os.arch: 'x86'\002C os.version: '6.1'\002C java.version: '1.8.0_161'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005CAMOL~1.SHI\005CAppData...}\002C goog:chromeOptions: {debuggerAddress: localhost:61686}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0b285a0450b8f196ede08818c93b3b9a,null
+
+
+# Created at 2019-11-28T13:26:12.778
+Unexpected IOException: 8,1,TEST.TestLogin,postCondition(TEST.TestLogin),null,chrome not reachable\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'MXITD037'\002C ip: '192.168.10.225'\002C os.name: 'Windows 7'\002C os.arch: 'x86'\002C os.version: '6.1'\002C java.version: '1.8.0_161'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005CAMOL~1.SHI\005CAppData...}\002C goog:chromeOptions: {debuggerAddress: localhost:61686}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0b285a0450b8f196ede08818c93b3b9a,null,chrome not reachable\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'MXITD037'\002C ip: '192.168.10.225'\002C os.name: 'Windows 7'\002C os.arch: 'x86'\002C os.version: '6.1'\002C java.version: '1.8.0_161'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005CAMOL~1.SHI\005CAppData...}\002C goog:chromeOptions: {debuggerAddress: localhost:61686}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0b285a0450b8f196ede08818c93b3b9a,TestLogin>BaseTest.postCondition:91 \00BB WebDriver chrome not reachable\000A  (Sessio...,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'MXITD037'\002C ip: '192.168.10.225'\002C os.name: 'Windows 7'\002C os.arch: 'x86'\002C os.version: '6.1'\002C java.version: '1.8.0_161'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005CAMOL~1.SHI\005CAppData...}\002C goog:chromeOptions: {debuggerAddress: localhost:61686}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0b285a0450b8f196ede08818c93b3b9a\000A
+
+
+# Created at 2019-11-28T13:26:12.865
+Unexpected IOException with stream: S
+
+# Created at 2019-11-28T13:26:12.866
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:12.866
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:12.867
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:12.867
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:12.868
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:12.868
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:12.869
+Unexpected IOException with stream: g
+
+# Created at 2019-11-28T13:26:12.869
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:12.870
+Unexpected IOException with stream: C
+
+# Created at 2019-11-28T13:26:12.870
+Unexpected IOException with stream: h
+
+# Created at 2019-11-28T13:26:12.871
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:12.871
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:12.872
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:26:12.872
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:12.873
+Unexpected IOException with stream: D
+
+# Created at 2019-11-28T13:26:12.873
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:12.874
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:12.874
+Unexpected IOException with stream: v
+
+# Created at 2019-11-28T13:26:12.875
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:12.875
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:12.876
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:12.876
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:12.877
+Unexpected IOException with stream: 8
+
+# Created at 2019-11-28T13:26:12.877
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:12.878
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:26:12.878
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:12.879
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-28T13:26:12.879
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:26:12.880
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:26:12.880
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:26:12.881
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:12.881
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:12.882
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:26:12.882
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:12.883
+Unexpected IOException with stream: (
+
+# Created at 2019-11-28T13:26:12.883
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:12.884
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:12.884
+Unexpected IOException with stream: b
+
+# Created at 2019-11-28T13:26:12.885
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:26:12.885
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:12.886
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:26:12.886
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:26:12.887
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-28T13:26:12.887
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:12.888
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:12.888
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:26:12.889
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-28T13:26:12.889
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:26:12.890
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:12.890
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:26:12.891
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:12.891
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:26:12.892
+Unexpected IOException with stream: 1
+
+# Created at 2019-11-28T13:26:12.892
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-28T13:26:12.893
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:12.894
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:12.894
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:12.895
+Unexpected IOException with stream: b
+
+# Created at 2019-11-28T13:26:12.895
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:12.896
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:26:12.896
+Unexpected IOException with stream: 6
+
+# Created at 2019-11-28T13:26:12.897
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:12.897
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:12.898
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:12.898
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:12.899
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:26:12.899
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:26:12.900
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:12.900
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:26:12.901
+Unexpected IOException with stream: 6
+
+# Created at 2019-11-28T13:26:12.901
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:12.902
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-28T13:26:12.902
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:12.903
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:12.903
+Unexpected IOException with stream: 5
+
+# Created at 2019-11-28T13:26:12.904
+Unexpected IOException with stream: -
+
+# Created at 2019-11-28T13:26:12.905
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:12.905
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:12.905
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:26:12.906
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:12.907
+Unexpected IOException with stream: /
+
+# Created at 2019-11-28T13:26:12.907
+Unexpected IOException with stream: b
+
+# Created at 2019-11-28T13:26:12.908
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:12.908
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:12.909
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:12.909
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:12.910
+Unexpected IOException with stream: h
+
+# Created at 2019-11-28T13:26:12.910
+Unexpected IOException with stream: -
+
+# Created at 2019-11-28T13:26:12.911
+Unexpected IOException with stream: h
+
+# Created at 2019-11-28T13:26:12.911
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:12.912
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:12.912
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:12.913
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:12.913
+Unexpected IOException with stream: /
+
+# Created at 2019-11-28T13:26:12.914
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-28T13:26:12.914
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:26:12.915
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:26:12.915
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:26:12.916
+Unexpected IOException with stream: @
+
+# Created at 2019-11-28T13:26:12.916
+Unexpected IOException with stream: {
+
+# Created at 2019-11-28T13:26:12.917
+Unexpected IOException with stream: #
+
+# Created at 2019-11-28T13:26:12.917
+Unexpected IOException with stream: 8
+
+# Created at 2019-11-28T13:26:12.918
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:26:12.919
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:26:12.919
+Unexpected IOException with stream: }
+
+# Created at 2019-11-28T13:26:12.920
+Unexpected IOException with stream: )
+
+# Created at 2019-11-28T13:26:12.920
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:12.921
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:12.921
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:12.922
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:12.922
+Unexpected IOException with stream: p
+
+# Created at 2019-11-28T13:26:12.923
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:12.923
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:12.924
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:12.924
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:12.925
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:12.925
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:26:12.926
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:26:12.927
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:26:12.927
+Unexpected IOException with stream: 
+
+# Created at 2019-11-28T13:26:12.927
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:26:12.928
+Unexpected IOException with stream: O
+
+# Created at 2019-11-28T13:26:12.929
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:12.929
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:26:12.930
+Unexpected IOException with stream: y
+
+# Created at 2019-11-28T13:26:12.930
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:12.931
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:26:12.932
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:12.932
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:12.933
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:12.934
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:26:12.934
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:12.935
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:12.936
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:12.936
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:12.937
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:12.937
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:12.938
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:12.938
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:12.939
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:12.939
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:12.940
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:12.940
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:12.941
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:12.941
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:12.942
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:12.942
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:12.943
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:12.943
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:12.944
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:26:12.944
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:26:12.945
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:12.945
+Unexpected IOException with stream: w
+
+# Created at 2019-11-28T13:26:12.946
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:12.946
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:12.947
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:12.947
+Unexpected IOException with stream: 
+
+# Created at 2019-11-28T13:26:12.948
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:26:12.948
+Unexpected IOException with stream: P
+
+# Created at 2019-11-28T13:26:12.949
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:26:12.949
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:12.950
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:12.950
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:12.951
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:12.951
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:12.952
+Unexpected IOException with stream: p
+
+# Created at 2019-11-28T13:26:12.952
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:12.953
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:12.953
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:12.954
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:12.954
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:12.955
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:12.955
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:12.956
+Unexpected IOException with stream: p
+
+# Created at 2019-11-28T13:26:12.956
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:12.957
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:12.957
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:12.958
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:12.959
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:12.959
+Unexpected IOException with stream: u
+
+# Created at 2019-11-28T13:26:12.960
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:12.960
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:12.961
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:12.961
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:12.962
+Unexpected IOException with stream: b
+
+# Created at 2019-11-28T13:26:12.962
+Unexpected IOException with stream: y
+
+# Created at 2019-11-28T13:26:12.963
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:12.963
+Unexpected IOException with stream: C
+
+# Created at 2019-11-28T13:26:12.964
+Unexpected IOException with stream: h
+
+# Created at 2019-11-28T13:26:12.964
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:12.965
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:12.965
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:26:12.966
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:12.966
+Unexpected IOException with stream: D
+
+# Created at 2019-11-28T13:26:12.967
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:12.967
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:12.968
+Unexpected IOException with stream: v
+
+# Created at 2019-11-28T13:26:12.968
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:12.969
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:12.969
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:12.970
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:12.971
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:12.971
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:12.972
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:12.972
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:12.973
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:12.973
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:26:12.974
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:12.974
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:12.975
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:12.975
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:12.976
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:12.976
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:12.977
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:12.977
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:12.978
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:12.978
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:12.979
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:26:12.979
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:12.980
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:12.980
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:26:12.981
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:12.981
+Unexpected IOException with stream: w
+
+# Created at 2019-11-28T13:26:12.982
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:12.982
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:12.983
+Unexpected IOException with stream: k
+
+# Created at 2019-11-28T13:26:12.983
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:12.984
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:12.984
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:12.985
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:12.985
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:12.986
+Unexpected IOException with stream: p
+
+# Created at 2019-11-28T13:26:12.987
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:12.987
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:12.987
+Unexpected IOException with stream: v
+
+# Created at 2019-11-28T13:26:12.988
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:12.989
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:12.989
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:12.990
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:12.990
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:12.991
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:12.991
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:12.992
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:12.992
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:12.993
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:12.993
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:12.994
+Unexpected IOException with stream: b
+
+# Created at 2019-11-28T13:26:12.994
+Unexpected IOException with stream: y
+
+# Created at 2019-11-28T13:26:12.995
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:12.995
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:26:12.996
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:12.997
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:26:12.997
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:12.998
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:12.998
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:12.999
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:12.999
+Unexpected IOException with stream: u
+
+# Created at 2019-11-28T13:26:13.000
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:13.000
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:13.001
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:13.001
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:13.002
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:13.002
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:13.003
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:13.003
+Unexpected IOException with stream: 
+
+# Created at 2019-11-28T13:26:13.004
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:26:15.162
+Unexpected IOException with stream: Nov 28, 2019 1:26:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created at 2019-11-28T13:26:16.586
+Unexpected IOException with stream: Test Method Skipped :DD_Login_data
+
+
+# Created at 2019-11-28T13:26:16.673
+Unexpected IOException: 9,1,TEST.TestLogin,DD_Login_data(TEST.TestLogin),null,chrome not reachable\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'MXITD037'\002C ip: '192.168.10.225'\002C os.name: 'Windows 7'\002C os.arch: 'x86'\002C os.version: '6.1'\002C java.version: '1.8.0_161'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005CAMOL~1.SHI\005CAppData...}\002C goog:chromeOptions: {debuggerAddress: localhost:61686}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0b285a0450b8f196ede08818c93b3b9a,null
+
+
+# Created at 2019-11-28T13:26:17.049
+Unexpected IOException with stream: S
+
+# Created at 2019-11-28T13:26:17.051
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:17.051
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:17.052
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:17.053
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:17.054
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:17.054
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:17.055
+Unexpected IOException with stream: g
+
+# Created at 2019-11-28T13:26:17.056
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:17.057
+Unexpected IOException with stream: C
+
+# Created at 2019-11-28T13:26:17.057
+Unexpected IOException with stream: h
+
+# Created at 2019-11-28T13:26:17.058
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:17.059
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:17.059
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:26:17.060
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:17.061
+Unexpected IOException with stream: D
+
+# Created at 2019-11-28T13:26:17.061
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:17.062
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:17.063
+Unexpected IOException with stream: v
+
+# Created at 2019-11-28T13:26:17.063
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:17.064
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:17.065
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:17.066
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:17.066
+Unexpected IOException with stream: 8
+
+# Created at 2019-11-28T13:26:17.067
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:17.068
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:26:17.068
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:17.069
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-28T13:26:17.070
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:26:17.070
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:26:17.071
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:26:17.072
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:17.073
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:17.073
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:26:17.074
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:17.075
+Unexpected IOException with stream: (
+
+# Created at 2019-11-28T13:26:17.076
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:17.077
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:17.078
+Unexpected IOException with stream: b
+
+# Created at 2019-11-28T13:26:17.079
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:26:17.080
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:17.081
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:26:17.082
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:26:17.083
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-28T13:26:17.085
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:17.086
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:17.087
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:26:17.088
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-28T13:26:17.091
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:26:17.092
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:17.093
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:26:17.095
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:17.096
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:26:17.097
+Unexpected IOException with stream: 1
+
+# Created at 2019-11-28T13:26:17.098
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-28T13:26:17.099
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:17.101
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:17.102
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:17.103
+Unexpected IOException with stream: b
+
+# Created at 2019-11-28T13:26:17.104
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:17.104
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:26:17.105
+Unexpected IOException with stream: 6
+
+# Created at 2019-11-28T13:26:17.106
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:17.107
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:17.108
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:17.108
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:17.109
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:26:17.110
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:26:17.111
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:17.112
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:26:17.113
+Unexpected IOException with stream: 6
+
+# Created at 2019-11-28T13:26:17.114
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:17.114
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-28T13:26:17.116
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:17.116
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:17.117
+Unexpected IOException with stream: 5
+
+# Created at 2019-11-28T13:26:17.118
+Unexpected IOException with stream: -
+
+# Created at 2019-11-28T13:26:17.119
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:17.120
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:17.120
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:26:17.121
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:17.122
+Unexpected IOException with stream: /
+
+# Created at 2019-11-28T13:26:17.123
+Unexpected IOException with stream: b
+
+# Created at 2019-11-28T13:26:17.124
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:17.124
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:17.125
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:17.126
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:17.128
+Unexpected IOException with stream: h
+
+# Created at 2019-11-28T13:26:17.129
+Unexpected IOException with stream: -
+
+# Created at 2019-11-28T13:26:17.130
+Unexpected IOException with stream: h
+
+# Created at 2019-11-28T13:26:17.130
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:17.131
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:17.132
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:17.133
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:17.134
+Unexpected IOException with stream: /
+
+# Created at 2019-11-28T13:26:17.135
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-28T13:26:17.136
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:26:17.137
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:26:17.138
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:26:17.139
+Unexpected IOException with stream: @
+
+# Created at 2019-11-28T13:26:17.140
+Unexpected IOException with stream: {
+
+# Created at 2019-11-28T13:26:17.141
+Unexpected IOException with stream: #
+
+# Created at 2019-11-28T13:26:17.142
+Unexpected IOException with stream: 8
+
+# Created at 2019-11-28T13:26:17.142
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:26:17.143
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:26:17.145
+Unexpected IOException with stream: }
+
+# Created at 2019-11-28T13:26:17.145
+Unexpected IOException with stream: )
+
+# Created at 2019-11-28T13:26:17.146
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:17.147
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:17.147
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:17.148
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:17.148
+Unexpected IOException with stream: p
+
+# Created at 2019-11-28T13:26:17.149
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:17.150
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:17.151
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:17.152
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:17.153
+Unexpected IOException with stream: 1
+
+# Created at 2019-11-28T13:26:17.154
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:26:17.155
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-28T13:26:17.156
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-28T13:26:17.157
+Unexpected IOException with stream: 5
+
+# Created at 2019-11-28T13:26:17.158
+Unexpected IOException with stream: 
+
+# Created at 2019-11-28T13:26:17.158
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:26:17.159
+Unexpected IOException with stream: O
+
+# Created at 2019-11-28T13:26:17.160
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:17.160
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:26:17.161
+Unexpected IOException with stream: y
+
+# Created at 2019-11-28T13:26:17.161
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:17.162
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:26:17.163
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:17.163
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:17.164
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:17.165
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:26:17.165
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:17.166
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:17.167
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:17.167
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:17.168
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:17.168
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:17.169
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:17.170
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:17.170
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:17.171
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:17.172
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:17.172
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:17.173
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:17.174
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:17.174
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:17.175
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:17.176
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:17.177
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:17.178
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:26:17.178
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:26:17.179
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:17.180
+Unexpected IOException with stream: w
+
+# Created at 2019-11-28T13:26:17.181
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:17.181
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:17.182
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:17.183
+Unexpected IOException with stream: 
+
+# Created at 2019-11-28T13:26:17.184
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:26:17.185
+Unexpected IOException with stream: P
+
+# Created at 2019-11-28T13:26:17.186
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:26:17.186
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:17.187
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:17.188
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:17.189
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:17.190
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:17.192
+Unexpected IOException with stream: p
+
+# Created at 2019-11-28T13:26:17.196
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:17.197
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:17.198
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:17.198
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:17.199
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:17.200
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:17.201
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:17.202
+Unexpected IOException with stream: p
+
+# Created at 2019-11-28T13:26:17.203
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:17.204
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:17.204
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:17.205
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:17.206
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:17.206
+Unexpected IOException with stream: u
+
+# Created at 2019-11-28T13:26:17.207
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:17.208
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:17.208
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:17.209
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:17.209
+Unexpected IOException with stream: b
+
+# Created at 2019-11-28T13:26:17.210
+Unexpected IOException with stream: y
+
+# Created at 2019-11-28T13:26:17.211
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:17.211
+Unexpected IOException with stream: C
+
+# Created at 2019-11-28T13:26:17.212
+Unexpected IOException with stream: h
+
+# Created at 2019-11-28T13:26:17.213
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:17.214
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:17.215
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:26:17.216
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:17.217
+Unexpected IOException with stream: D
+
+# Created at 2019-11-28T13:26:17.217
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:17.218
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:17.218
+Unexpected IOException with stream: v
+
+# Created at 2019-11-28T13:26:17.219
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:17.219
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:17.220
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:17.221
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:17.221
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:17.222
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:17.223
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:17.224
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:17.225
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:17.225
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:26:17.226
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:17.227
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:17.227
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:17.228
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:17.229
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:17.230
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:17.230
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:17.231
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:17.231
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:17.232
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:17.232
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:26:17.233
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:17.233
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:17.234
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:26:17.235
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:17.235
+Unexpected IOException with stream: w
+
+# Created at 2019-11-28T13:26:17.236
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:17.236
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:17.237
+Unexpected IOException with stream: k
+
+# Created at 2019-11-28T13:26:17.238
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:17.238
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:17.239
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:17.240
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:17.241
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:17.241
+Unexpected IOException with stream: p
+
+# Created at 2019-11-28T13:26:17.242
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:17.242
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:17.243
+Unexpected IOException with stream: v
+
+# Created at 2019-11-28T13:26:17.243
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:17.244
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:17.244
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:17.245
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:17.245
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:17.246
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:17.246
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:17.247
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:17.248
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:17.248
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:17.249
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:17.249
+Unexpected IOException with stream: b
+
+# Created at 2019-11-28T13:26:17.250
+Unexpected IOException with stream: y
+
+# Created at 2019-11-28T13:26:17.251
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:17.251
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:26:17.252
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:17.253
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:26:17.253
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:17.254
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:17.254
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:17.255
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:17.255
+Unexpected IOException with stream: u
+
+# Created at 2019-11-28T13:26:17.256
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:17.256
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:17.257
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:17.257
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:17.258
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:17.258
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:17.259
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:17.260
+Unexpected IOException with stream: 
+
+# Created at 2019-11-28T13:26:17.260
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:26:19.639
+Unexpected IOException with stream: Nov 28, 2019 1:26:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created at 2019-11-28T13:26:21.311
+Unexpected IOException with stream: Test Method Skipped :DD_Login_data
+
+
+# Created at 2019-11-28T13:26:21.313
+Unexpected IOException: 9,1,TEST.TestLogin,DD_Login_data(TEST.TestLogin),null,chrome not reachable\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'MXITD037'\002C ip: '192.168.10.225'\002C os.name: 'Windows 7'\002C os.arch: 'x86'\002C os.version: '6.1'\002C java.version: '1.8.0_161'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005CAMOL~1.SHI\005CAppData...}\002C goog:chromeOptions: {debuggerAddress: localhost:61686}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0b285a0450b8f196ede08818c93b3b9a,null
+
+
+# Created at 2019-11-28T13:26:22.310
+Unexpected IOException with stream: S
+
+# Created at 2019-11-28T13:26:22.311
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:22.312
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:22.313
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:22.313
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:22.314
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:22.315
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:22.316
+Unexpected IOException with stream: g
+
+# Created at 2019-11-28T13:26:22.317
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:22.318
+Unexpected IOException with stream: C
+
+# Created at 2019-11-28T13:26:22.318
+Unexpected IOException with stream: h
+
+# Created at 2019-11-28T13:26:22.319
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:22.320
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:22.321
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:26:22.321
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:22.322
+Unexpected IOException with stream: D
+
+# Created at 2019-11-28T13:26:22.323
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:22.323
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:22.324
+Unexpected IOException with stream: v
+
+# Created at 2019-11-28T13:26:22.325
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:22.326
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:22.326
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:22.327
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:22.328
+Unexpected IOException with stream: 8
+
+# Created at 2019-11-28T13:26:22.329
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:22.329
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:26:22.330
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:22.331
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-28T13:26:22.331
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:26:22.332
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:26:22.333
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:26:22.334
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:22.335
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:22.335
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:26:22.336
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:22.337
+Unexpected IOException with stream: (
+
+# Created at 2019-11-28T13:26:22.338
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:22.338
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:22.339
+Unexpected IOException with stream: b
+
+# Created at 2019-11-28T13:26:22.340
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:26:22.341
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:22.341
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:26:22.342
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:26:22.343
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-28T13:26:22.344
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:22.344
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:22.345
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:26:22.346
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-28T13:26:22.346
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:26:22.347
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:22.348
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:26:22.349
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:22.350
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:26:22.350
+Unexpected IOException with stream: 1
+
+# Created at 2019-11-28T13:26:22.351
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-28T13:26:22.352
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:22.353
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:22.354
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:22.355
+Unexpected IOException with stream: b
+
+# Created at 2019-11-28T13:26:22.356
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:22.356
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:26:22.357
+Unexpected IOException with stream: 6
+
+# Created at 2019-11-28T13:26:22.358
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:22.359
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:22.359
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:22.360
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:22.361
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:26:22.362
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:26:22.363
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:22.363
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:26:22.364
+Unexpected IOException with stream: 6
+
+# Created at 2019-11-28T13:26:22.364
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:22.365
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-28T13:26:22.366
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:22.367
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:22.367
+Unexpected IOException with stream: 5
+
+# Created at 2019-11-28T13:26:22.368
+Unexpected IOException with stream: -
+
+# Created at 2019-11-28T13:26:22.369
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:22.370
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:22.370
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:26:22.371
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:22.372
+Unexpected IOException with stream: /
+
+# Created at 2019-11-28T13:26:22.372
+Unexpected IOException with stream: b
+
+# Created at 2019-11-28T13:26:22.373
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:22.374
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:22.374
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:22.375
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:22.376
+Unexpected IOException with stream: h
+
+# Created at 2019-11-28T13:26:22.377
+Unexpected IOException with stream: -
+
+# Created at 2019-11-28T13:26:22.377
+Unexpected IOException with stream: h
+
+# Created at 2019-11-28T13:26:22.378
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:22.379
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:22.380
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:22.381
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:22.381
+Unexpected IOException with stream: /
+
+# Created at 2019-11-28T13:26:22.382
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-28T13:26:22.383
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:26:22.384
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:26:22.385
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:26:22.385
+Unexpected IOException with stream: @
+
+# Created at 2019-11-28T13:26:22.386
+Unexpected IOException with stream: {
+
+# Created at 2019-11-28T13:26:22.387
+Unexpected IOException with stream: #
+
+# Created at 2019-11-28T13:26:22.388
+Unexpected IOException with stream: 8
+
+# Created at 2019-11-28T13:26:22.389
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:26:22.389
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:26:22.390
+Unexpected IOException with stream: }
+
+# Created at 2019-11-28T13:26:22.391
+Unexpected IOException with stream: )
+
+# Created at 2019-11-28T13:26:22.391
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:22.392
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:22.393
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:22.393
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:22.394
+Unexpected IOException with stream: p
+
+# Created at 2019-11-28T13:26:22.395
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:22.395
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:22.396
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:22.397
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:22.397
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-28T13:26:22.398
+Unexpected IOException with stream: 1
+
+# Created at 2019-11-28T13:26:22.399
+Unexpected IOException with stream: 8
+
+# Created at 2019-11-28T13:26:22.399
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:26:22.400
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-28T13:26:22.401
+Unexpected IOException with stream: 
+
+# Created at 2019-11-28T13:26:22.401
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:26:22.402
+Unexpected IOException with stream: O
+
+# Created at 2019-11-28T13:26:22.403
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:22.403
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:26:22.404
+Unexpected IOException with stream: y
+
+# Created at 2019-11-28T13:26:22.408
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:22.408
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:26:22.409
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:22.410
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:22.411
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:22.412
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:26:22.413
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:22.413
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:22.414
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:22.415
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:22.415
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:22.416
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:22.417
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:22.417
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:22.418
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:22.419
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:22.420
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:22.420
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:22.421
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:22.422
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:22.423
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:22.424
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:22.424
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:22.425
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:22.426
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:26:22.427
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:26:22.427
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:22.428
+Unexpected IOException with stream: w
+
+# Created at 2019-11-28T13:26:22.429
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:22.430
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:22.430
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:22.431
+Unexpected IOException with stream: 
+
+# Created at 2019-11-28T13:26:22.432
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:26:22.433
+Unexpected IOException with stream: P
+
+# Created at 2019-11-28T13:26:22.434
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:26:22.435
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:22.435
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:22.436
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:22.437
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:22.439
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:22.440
+Unexpected IOException with stream: p
+
+# Created at 2019-11-28T13:26:22.440
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:22.441
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:22.442
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:22.443
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:22.444
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:22.444
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:22.445
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:22.446
+Unexpected IOException with stream: p
+
+# Created at 2019-11-28T13:26:22.447
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:22.447
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:22.448
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:22.449
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:22.450
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:22.450
+Unexpected IOException with stream: u
+
+# Created at 2019-11-28T13:26:22.451
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:22.452
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:22.453
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:22.453
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:22.454
+Unexpected IOException with stream: b
+
+# Created at 2019-11-28T13:26:22.455
+Unexpected IOException with stream: y
+
+# Created at 2019-11-28T13:26:22.456
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:22.457
+Unexpected IOException with stream: C
+
+# Created at 2019-11-28T13:26:22.458
+Unexpected IOException with stream: h
+
+# Created at 2019-11-28T13:26:22.459
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:22.459
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:22.460
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:26:22.461
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:22.462
+Unexpected IOException with stream: D
+
+# Created at 2019-11-28T13:26:22.463
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:22.463
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:22.464
+Unexpected IOException with stream: v
+
+# Created at 2019-11-28T13:26:22.465
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:22.465
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:22.466
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:22.467
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:22.468
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:22.468
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:22.469
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:22.470
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:22.471
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:22.471
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:26:22.472
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:22.472
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:22.473
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:22.474
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:22.475
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:22.475
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:22.476
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:22.477
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:22.478
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:22.478
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:22.479
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:26:22.480
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:22.481
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:22.481
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:26:22.482
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:22.483
+Unexpected IOException with stream: w
+
+# Created at 2019-11-28T13:26:22.483
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:22.484
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:22.485
+Unexpected IOException with stream: k
+
+# Created at 2019-11-28T13:26:22.485
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:22.486
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:22.487
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:22.488
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:22.488
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:22.489
+Unexpected IOException with stream: p
+
+# Created at 2019-11-28T13:26:22.490
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:22.491
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:22.492
+Unexpected IOException with stream: v
+
+# Created at 2019-11-28T13:26:22.493
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:22.494
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:22.494
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:22.495
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:22.496
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:22.497
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:22.498
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:22.498
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:22.499
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:22.500
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:22.501
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:22.501
+Unexpected IOException with stream: b
+
+# Created at 2019-11-28T13:26:22.502
+Unexpected IOException with stream: y
+
+# Created at 2019-11-28T13:26:22.503
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:22.503
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:26:23.733
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:23.744
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:26:23.745
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:23.746
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:23.748
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:23.753
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:23.754
+Unexpected IOException with stream: u
+
+# Created at 2019-11-28T13:26:23.756
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:23.758
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:23.760
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:23.761
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:23.762
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:23.763
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:23.764
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:23.765
+Unexpected IOException with stream: 
+
+# Created at 2019-11-28T13:26:23.768
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:26:25.215
+Unexpected IOException with stream: Nov 28, 2019 1:26:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created at 2019-11-28T13:26:26.680
+Unexpected IOException with stream: Test Method Skipped :DD_Login_data
+
+
+# Created at 2019-11-28T13:26:26.682
+Unexpected IOException: 9,1,TEST.TestLogin,DD_Login_data(TEST.TestLogin),null,chrome not reachable\000A  (Session info: chrome=78.0.3904.108)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'MXITD037'\002C ip: '192.168.10.225'\002C os.name: 'Windows 7'\002C os.arch: 'x86'\002C os.version: '6.1'\002C java.version: '1.8.0_161'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 78.0.3904.108\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005CAMOL~1.SHI\005CAppData...}\002C goog:chromeOptions: {debuggerAddress: localhost:61686}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 0b285a0450b8f196ede08818c93b3b9a,null
+
+
+# Created at 2019-11-28T13:26:27.131
+Unexpected IOException with stream: S
+
+# Created at 2019-11-28T13:26:27.132
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:27.133
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:27.134
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:27.135
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:27.136
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:27.137
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:27.138
+Unexpected IOException with stream: g
+
+# Created at 2019-11-28T13:26:27.139
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:27.140
+Unexpected IOException with stream: C
+
+# Created at 2019-11-28T13:26:27.141
+Unexpected IOException with stream: h
+
+# Created at 2019-11-28T13:26:27.142
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:27.143
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:27.144
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:26:27.145
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:27.146
+Unexpected IOException with stream: D
+
+# Created at 2019-11-28T13:26:27.149
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:27.149
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:27.150
+Unexpected IOException with stream: v
+
+# Created at 2019-11-28T13:26:27.151
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:27.151
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:27.152
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:27.153
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:27.153
+Unexpected IOException with stream: 8
+
+# Created at 2019-11-28T13:26:27.154
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:27.155
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:26:27.156
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:27.156
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-28T13:26:27.157
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:26:27.159
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:26:27.160
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:26:27.161
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:27.161
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:27.162
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:26:27.163
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:27.164
+Unexpected IOException with stream: (
+
+# Created at 2019-11-28T13:26:27.164
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:27.165
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:27.166
+Unexpected IOException with stream: b
+
+# Created at 2019-11-28T13:26:27.166
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:26:27.167
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:27.168
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:26:27.168
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:26:27.169
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-28T13:26:27.170
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:27.171
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:27.172
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:26:27.172
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-28T13:26:27.173
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:26:27.174
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:27.175
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:26:27.175
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:27.176
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:26:27.177
+Unexpected IOException with stream: 1
+
+# Created at 2019-11-28T13:26:27.177
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-28T13:26:27.178
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:27.179
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:27.179
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:27.180
+Unexpected IOException with stream: b
+
+# Created at 2019-11-28T13:26:27.181
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:27.182
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:26:27.183
+Unexpected IOException with stream: 6
+
+# Created at 2019-11-28T13:26:27.184
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:27.185
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:27.185
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:27.186
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:27.186
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:26:27.187
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:26:27.188
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:27.189
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:26:27.194
+Unexpected IOException with stream: 6
+
+# Created at 2019-11-28T13:26:27.195
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:27.196
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-28T13:26:27.197
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:27.197
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:27.198
+Unexpected IOException with stream: 5
+
+# Created at 2019-11-28T13:26:27.198
+Unexpected IOException with stream: -
+
+# Created at 2019-11-28T13:26:27.199
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:27.200
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:27.201
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:26:27.202
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:27.202
+Unexpected IOException with stream: /
+
+# Created at 2019-11-28T13:26:27.203
+Unexpected IOException with stream: b
+
+# Created at 2019-11-28T13:26:27.204
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:27.204
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:27.205
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:27.205
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:27.206
+Unexpected IOException with stream: h
+
+# Created at 2019-11-28T13:26:27.206
+Unexpected IOException with stream: -
+
+# Created at 2019-11-28T13:26:27.207
+Unexpected IOException with stream: h
+
+# Created at 2019-11-28T13:26:27.207
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:27.208
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:27.209
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:27.209
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:27.210
+Unexpected IOException with stream: /
+
+# Created at 2019-11-28T13:26:27.210
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-28T13:26:27.211
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:26:27.211
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:26:27.212
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:26:27.212
+Unexpected IOException with stream: @
+
+# Created at 2019-11-28T13:26:27.213
+Unexpected IOException with stream: {
+
+# Created at 2019-11-28T13:26:27.214
+Unexpected IOException with stream: #
+
+# Created at 2019-11-28T13:26:27.214
+Unexpected IOException with stream: 8
+
+# Created at 2019-11-28T13:26:27.215
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:26:27.216
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-28T13:26:27.216
+Unexpected IOException with stream: }
+
+# Created at 2019-11-28T13:26:27.217
+Unexpected IOException with stream: )
+
+# Created at 2019-11-28T13:26:27.217
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:27.218
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:27.218
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:27.219
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:27.220
+Unexpected IOException with stream: p
+
+# Created at 2019-11-28T13:26:27.220
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:27.221
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:27.222
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:27.222
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:27.223
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-28T13:26:27.223
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:26:27.224
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:26:27.225
+Unexpected IOException with stream: 6
+
+# Created at 2019-11-28T13:26:27.225
+Unexpected IOException with stream: 1
+
+# Created at 2019-11-28T13:26:27.226
+Unexpected IOException with stream: 
+
+# Created at 2019-11-28T13:26:27.227
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:26:27.227
+Unexpected IOException with stream: O
+
+# Created at 2019-11-28T13:26:27.228
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:27.229
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:26:27.230
+Unexpected IOException with stream: y
+
+# Created at 2019-11-28T13:26:27.230
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:27.231
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:26:27.231
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:27.232
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:27.232
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:27.233
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:26:27.233
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:27.234
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:27.234
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:27.235
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:27.236
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:27.237
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:27.238
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:27.238
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:27.239
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:27.240
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:27.240
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:27.241
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:27.242
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:27.242
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:27.243
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:27.244
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:27.244
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:27.245
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:27.246
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:26:27.247
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:26:27.247
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:27.248
+Unexpected IOException with stream: w
+
+# Created at 2019-11-28T13:26:27.248
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:27.249
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:27.249
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:27.250
+Unexpected IOException with stream: 
+
+# Created at 2019-11-28T13:26:27.251
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:26:27.251
+Unexpected IOException with stream: P
+
+# Created at 2019-11-28T13:26:27.252
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:26:27.253
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:27.253
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:27.254
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:27.255
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:27.256
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:27.256
+Unexpected IOException with stream: p
+
+# Created at 2019-11-28T13:26:27.257
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:27.258
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:27.258
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:27.259
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:27.260
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:27.261
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:27.261
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:27.262
+Unexpected IOException with stream: p
+
+# Created at 2019-11-28T13:26:27.262
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:27.263
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:27.263
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:27.264
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:27.264
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:27.265
+Unexpected IOException with stream: u
+
+# Created at 2019-11-28T13:26:27.265
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:27.266
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:27.266
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:27.267
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:27.267
+Unexpected IOException with stream: b
+
+# Created at 2019-11-28T13:26:27.268
+Unexpected IOException with stream: y
+
+# Created at 2019-11-28T13:26:27.268
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:27.269
+Unexpected IOException with stream: C
+
+# Created at 2019-11-28T13:26:27.269
+Unexpected IOException with stream: h
+
+# Created at 2019-11-28T13:26:27.270
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:27.270
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:27.271
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:26:27.271
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:27.272
+Unexpected IOException with stream: D
+
+# Created at 2019-11-28T13:26:27.272
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:27.273
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:27.273
+Unexpected IOException with stream: v
+
+# Created at 2019-11-28T13:26:27.274
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:27.274
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:27.275
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:27.276
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:27.276
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:27.277
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:27.277
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:27.278
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:27.278
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:27.279
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:26:27.279
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:27.280
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:27.280
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:27.281
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:27.281
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:27.282
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:27.282
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:27.283
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:27.283
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:27.284
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:27.284
+Unexpected IOException with stream: f
+
+# Created at 2019-11-28T13:26:27.285
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:27.285
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:27.286
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:26:27.286
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:27.287
+Unexpected IOException with stream: w
+
+# Created at 2019-11-28T13:26:27.288
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:27.288
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:27.289
+Unexpected IOException with stream: k
+
+# Created at 2019-11-28T13:26:27.290
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:27.290
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:27.291
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:27.291
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:27.292
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:27.292
+Unexpected IOException with stream: p
+
+# Created at 2019-11-28T13:26:27.293
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:27.293
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:27.294
+Unexpected IOException with stream: v
+
+# Created at 2019-11-28T13:26:27.295
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:27.295
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:27.296
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:27.296
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:27.297
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:27.298
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:27.298
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:27.299
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:27.299
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:27.300
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:27.301
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:27.301
+Unexpected IOException with stream: b
+
+# Created at 2019-11-28T13:26:27.302
+Unexpected IOException with stream: y
+
+# Created at 2019-11-28T13:26:27.302
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:27.303
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:26:27.303
+Unexpected IOException with stream: a
+
+# Created at 2019-11-28T13:26:27.304
+Unexpected IOException with stream: l
+
+# Created at 2019-11-28T13:26:27.304
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:27.305
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:27.305
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:27.306
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:27.306
+Unexpected IOException with stream: u
+
+# Created at 2019-11-28T13:26:27.307
+Unexpected IOException with stream: s
+
+# Created at 2019-11-28T13:26:27.308
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:27.309
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:27.309
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:27.309
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:27.310
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:27.311
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:27.311
+Unexpected IOException with stream: 
+
+# Created at 2019-11-28T13:26:27.312
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:26:29.443
+Unexpected IOException with stream: Nov 28, 2019 1:26:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created at 2019-11-28T13:26:33.460
+Unexpected IOException with stream: [
+
+# Created at 2019-11-28T13:26:33.462
+Unexpected IOException with stream: 1
+
+# Created at 2019-11-28T13:26:33.463
+Unexpected IOException with stream: 5
+
+# Created at 2019-11-28T13:26:33.464
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:33.465
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:26:33.466
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:26:33.467
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-28T13:26:33.468
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:33.468
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:33.469
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:26:33.470
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-28T13:26:33.470
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:33.471
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:26:33.472
+Unexpected IOException with stream: 5
+
+# Created at 2019-11-28T13:26:33.472
+Unexpected IOException with stream: 5
+
+# Created at 2019-11-28T13:26:33.473
+Unexpected IOException with stream: ]
+
+# Created at 2019-11-28T13:26:33.473
+Unexpected IOException with stream: [
+
+# Created at 2019-11-28T13:26:33.474
+Unexpected IOException with stream: W
+
+# Created at 2019-11-28T13:26:33.475
+Unexpected IOException with stream: A
+
+# Created at 2019-11-28T13:26:33.475
+Unexpected IOException with stream: R
+
+# Created at 2019-11-28T13:26:33.476
+Unexpected IOException with stream: N
+
+# Created at 2019-11-28T13:26:33.477
+Unexpected IOException with stream: I
+
+# Created at 2019-11-28T13:26:33.477
+Unexpected IOException with stream: N
+
+# Created at 2019-11-28T13:26:33.478
+Unexpected IOException with stream: G
+
+# Created at 2019-11-28T13:26:33.479
+Unexpected IOException with stream: ]
+
+# Created at 2019-11-28T13:26:33.479
+Unexpected IOException with stream: :
+
+# Created at 2019-11-28T13:26:33.480
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:33.481
+Unexpected IOException with stream: T
+
+# Created at 2019-11-28T13:26:33.481
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:33.482
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:26:33.482
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:33.483
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:33.484
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:33.484
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:33.485
+Unexpected IOException with stream: u
+
+# Created at 2019-11-28T13:26:33.486
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:33.486
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:33.487
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:33.487
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:33.488
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:33.489
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:33.489
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:33.490
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:33.491
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:33.491
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:33.492
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:33.492
+Unexpected IOException with stream: g
+
+# Created at 2019-11-28T13:26:33.493
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:33.494
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:33.494
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:33.495
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:33.496
+Unexpected IOException with stream: C
+
+# Created at 2019-11-28T13:26:33.497
+Unexpected IOException with stream: h
+
+# Created at 2019-11-28T13:26:33.497
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:33.498
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:33.498
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:26:33.498
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:33.499
+Unexpected IOException with stream: ,
+
+# Created at 2019-11-28T13:26:33.499
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:33.500
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:33.500
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:33.503
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:33.503
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:33.504
+Unexpected IOException with stream: y
+
+# Created at 2019-11-28T13:26:33.504
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:33.505
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:33.505
+Unexpected IOException with stream: g
+
+# Created at 2019-11-28T13:26:33.506
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:33.506
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:33.507
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:33.507
+Unexpected IOException with stream: 
+
+# Created at 2019-11-28T13:26:33.508
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-28T13:26:39.464
+Unexpected IOException with stream: [
+
+# Created at 2019-11-28T13:26:39.465
+Unexpected IOException with stream: 1
+
+# Created at 2019-11-28T13:26:39.466
+Unexpected IOException with stream: 5
+
+# Created at 2019-11-28T13:26:39.467
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:39.467
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:26:39.468
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:26:39.469
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-28T13:26:39.470
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:39.470
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-28T13:26:39.471
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:26:39.472
+Unexpected IOException with stream: 9
+
+# Created at 2019-11-28T13:26:39.472
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:39.473
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-28T13:26:39.474
+Unexpected IOException with stream: 6
+
+# Created at 2019-11-28T13:26:39.474
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-28T13:26:39.475
+Unexpected IOException with stream: ]
+
+# Created at 2019-11-28T13:26:39.476
+Unexpected IOException with stream: [
+
+# Created at 2019-11-28T13:26:39.476
+Unexpected IOException with stream: W
+
+# Created at 2019-11-28T13:26:39.477
+Unexpected IOException with stream: A
+
+# Created at 2019-11-28T13:26:39.477
+Unexpected IOException with stream: R
+
+# Created at 2019-11-28T13:26:39.478
+Unexpected IOException with stream: N
+
+# Created at 2019-11-28T13:26:39.479
+Unexpected IOException with stream: I
+
+# Created at 2019-11-28T13:26:39.479
+Unexpected IOException with stream: N
+
+# Created at 2019-11-28T13:26:39.480
+Unexpected IOException with stream: G
+
+# Created at 2019-11-28T13:26:39.481
+Unexpected IOException with stream: ]
+
+# Created at 2019-11-28T13:26:39.481
+Unexpected IOException with stream: :
+
+# Created at 2019-11-28T13:26:39.482
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:39.482
+Unexpected IOException with stream: T
+
+# Created at 2019-11-28T13:26:39.483
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:39.484
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:26:39.484
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:39.485
+Unexpected IOException with stream: d
+
+# Created at 2019-11-28T13:26:39.486
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:39.486
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:39.487
+Unexpected IOException with stream: u
+
+# Created at 2019-11-28T13:26:39.488
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:39.488
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:39.489
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:39.489
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:39.490
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:39.491
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:39.491
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:39.492
+Unexpected IOException with stream: c
+
+# Created at 2019-11-28T13:26:39.493
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:39.493
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:39.494
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:39.494
+Unexpected IOException with stream: g
+
+# Created at 2019-11-28T13:26:39.495
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:39.496
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:39.496
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:39.497
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:39.497
+Unexpected IOException with stream: C
+
+# Created at 2019-11-28T13:26:39.498
+Unexpected IOException with stream: h
+
+# Created at 2019-11-28T13:26:39.498
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:39.499
+Unexpected IOException with stream: o
+
+# Created at 2019-11-28T13:26:39.499
+Unexpected IOException with stream: m
+
+# Created at 2019-11-28T13:26:39.500
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:39.501
+Unexpected IOException with stream: ,
+
+# Created at 2019-11-28T13:26:39.501
+Unexpected IOException with stream:  
+
+# Created at 2019-11-28T13:26:39.502
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:39.502
+Unexpected IOException with stream: e
+
+# Created at 2019-11-28T13:26:39.503
+Unexpected IOException with stream: t
+
+# Created at 2019-11-28T13:26:39.503
+Unexpected IOException with stream: r
+
+# Created at 2019-11-28T13:26:39.504
+Unexpected IOException with stream: y
+
+# Created at 2019-11-28T13:26:39.504
+Unexpected IOException with stream: i
+
+# Created at 2019-11-28T13:26:39.505
+Unexpected IOException with stream: n
+
+# Created at 2019-11-28T13:26:39.505
+Unexpected IOException with stream: g
+
+# Created at 2019-11-28T13:26:39.506
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:39.506
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:39.507
+Unexpected IOException with stream: .
+
+# Created at 2019-11-28T13:26:39.507
+Unexpected IOException with stream: 
+
+# Created at 2019-11-28T13:26:39.508
+Unexpected IOException with stream: 
+
+

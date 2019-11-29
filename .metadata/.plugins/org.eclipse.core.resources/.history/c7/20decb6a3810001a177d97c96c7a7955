@@ -1,0 +1,25 @@
+package POM;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class ATS_Registration {
+	@FindBy()
+	private WebElement userName;
+	@FindBy()
+	private WebElement firstName;
+	@FindBy()
+	private WebElement lastName;
+	@FindBy()
+	private WebElement email;
+	@FindBy()
+	private WebElement confirmEmail;
+	@FindBy()
+	private WebElement password;
+	@FindBy()
+	private WebElement submitBtn;
+	@FindBy()
+	private WebElement clickHereToLogin;
+	
+
+}
