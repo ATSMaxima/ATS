@@ -29,6 +29,7 @@ public class Base_CommonComponent {
 	// }
 
 	public void homeBtnclick() {
+		CommonActions.waitTime(2000);
 		homeClickBtn.click();
 		CommonActions.waitTime(2000);
 	}

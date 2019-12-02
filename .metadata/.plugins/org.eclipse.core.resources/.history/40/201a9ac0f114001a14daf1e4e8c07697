@@ -1,0 +1,27 @@
+package TEST;
+
+import org.testng.annotations.Test;
+
+import POM.ATS_JobPage;
+import POM.ATS_Login;
+
+public class Test_Add_Job extends BaseTest {
+	
+	@Test
+	public void addJob (){
+	l = extent.createTest("addJob");
+	ATS_Login al = new ATS_Login(driver);
+	al.loginATS(UN, PW);
+	ATS_JobPage aj = new ATS_JobPage(driver);
+	aj.homeBtnclick();
+	aj.select();
+	aj.click_AddJob();
+	aj.get_JobTitle("Consultant");
+	aj.get_ReqId("S123");
+	aj.get_Location_Address("Pune");
+	aj.get_Department("Support");
+	aj.get_ApplicationForm("Resume Required");
+	
+	}
+
+}

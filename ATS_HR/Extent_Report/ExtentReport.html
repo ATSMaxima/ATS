@@ -40,7 +40,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a>
-				<span class='suite-start-time'>Nov 29, 2019 6:59:17 PM</span>
+				<span class='suite-start-time'>Dec 2, 2019 7:36:22 PM</span>
 			</a>
 			<a>
 				<span>v3.0.0</span>
@@ -125,10 +125,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span><span class='strong'>0</span> test(s) passed</span>
+					<span><span class='strong'>1</span> test(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong'>0</span> test(s) failed, <span class='strong'>1</span> others
+					<span class='strong'>1</span> test(s) failed, <span class='strong'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -140,10 +140,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span><span class='strong'>0</span> step(s) passed</span>
+					<span><span class='strong'>1</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong'>0</span> step(s) failed, <span class='strong'>0</span> others
+					<span class='strong'>2</span> step(s) failed, <span class='strong'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -159,18 +159,86 @@
 			<ul id='test-collection' class='test-collection'>
 				
 				
-				<li class='test displayed active  unknown' status='unknown' bdd='false' test-id='1'>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>login</span>
-						<span class='test-time'>Nov 29, 2019 6:59:30 PM</span>
-						<span class='test-status right unknown'>unknown</span>
+						<span class='test-time'>Dec 2, 2019 7:36:27 PM</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Nov 29, 2019 6:59:30 PM</span>
-	<span class='label end-time'>Nov 29, 2019 6:59:39 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 8s+610ms</span>
+	<span class='label start-time'>Dec 2, 2019 7:36:27 PM</span>
+	<span class='label end-time'>Dec 2, 2019 7:38:00 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 1m 32s+930ms</span>
 </div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>7:36:36 PM</td>
+					<td class='step-details'><span class='label white-text green'>Test Case Passed is :login</span></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='2'>
+					<div class='test-heading'>
+						<span class='test-name'>addJob</span>
+						<span class='test-time'>Dec 2, 2019 7:36:40 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 2, 2019 7:36:40 PM</span>
+	<span class='label end-time'>Dec 2, 2019 7:38:00 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 1m 20s+764ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>7:37:58 PM</td>
+					<td class='step-details'><span class='label white-text red'>Test Case Failed is :addJob</span></td>
+				</tr>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>7:37:58 PM</td>
+					<td class='step-details'><span class='label white-text red'>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='shutter-out-horizontal']"}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MXITD037', ip: '192.168.10.225', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\AMOL~1.SHI\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:55478}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c6de8d0a6084db311267ed4112d7cde2
+*** Element info: {Using=xpath, value=//a[@class='shutter-out-horizontal']} - Test Case Failed</span></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='C:\Users\amol.shingote\Desktop\ATS-Framework\ATS_HR/FailedScreenShots/addJob 02_12_2019   07-37-58.png' width='25%' src='C:\Users\amol.shingote\Desktop\ATS-Framework\ATS_HR/FailedScreenShots/addJob 02_12_2019   07-37-58.png'></li>
+							</ul>
 					</div>
 				</li>
 			</ul>
@@ -205,31 +273,31 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Tests
-					<div class='panel-lead'>1</div>
+					<div class='panel-lead'>2</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>0</div>
+					<div class='panel-lead'>3</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Nov 29, 2019 6:59:17 PM</div>
+					<div class='panel-lead'>Dec 2, 2019 7:36:22 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Nov 29, 2019 6:59:39 PM</div>
+			 		<div class='panel-lead'>Dec 2, 2019 7:38:00 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>21,712ms</div>
+					<div class='panel-lead'>97,828ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -281,16 +349,16 @@
 
 		<script>
 			var statusGroup = {
-				passParent: 0,
-				failParent: 0,
+				passParent: 1,
+				failParent: 1,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				unknownParent: 1,
+				unknownParent: 0,
 				
-				passChild: 0,
-				failChild: 0,
+				passChild: 1,
+				failChild: 2,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
