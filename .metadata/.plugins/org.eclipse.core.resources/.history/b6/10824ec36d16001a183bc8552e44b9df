@@ -4,10 +4,10 @@
   <test thread-count="5" name="Test">
   <parameter name="browsername" value="Chrome"/>
     <classes>
-      <class name="TEST.Test_ATS_Registration"/>
-      <class name="TEST.TestLogin"/>
       <class name="TEST.Test_ATS_AddCandidate"/>
       <class name="TEST.Test_Add_Job"/>
+      <class name="TEST.TestLogin"/>
+      <class name="TEST.Test_ATS_Registration"/>
       <class name="TEST.Test_DataProviderATSRegistration"/>
       <class name="TEST.TestDataProviderATSLogin"/>
     </classes>

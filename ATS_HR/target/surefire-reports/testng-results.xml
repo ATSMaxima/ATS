@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="2" total="7" passed="5">
   <reporter-output>
     <line>
       <![CDATA[Test Execution Start : Test]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Start :login]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Success :login]]>
     </line>
     <line>
       <![CDATA[Test Method Start :DD_Login_data]]>
@@ -29,16 +35,16 @@
       <![CDATA[Test Method Success :DD_Login_data]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="51274" started-at="2019-12-03T15:38:34Z" finished-at="2019-12-03T15:39:25Z">
+  <suite name="Suite" duration-ms="77995" started-at="2019-12-04T08:24:18Z" finished-at="2019-12-04T08:25:36Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="51274" started-at="2019-12-03T15:38:34Z" finished-at="2019-12-03T15:39:25Z">
-      <class name="TEST.TestDataProviderATSLogin">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:TEST.TestDataProviderATSLogin@9d9c55]" name="startReport" is-config="true" duration-ms="194" started-at="2019-12-03T15:38:34Z" finished-at="2019-12-03T15:38:34Z">
+    <test name="Test" duration-ms="77995" started-at="2019-12-04T08:24:18Z" finished-at="2019-12-04T08:25:36Z">
+      <class name="TEST.TestLogin">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:TEST.TestLogin@1a57a3b]" name="startReport" is-config="true" duration-ms="262" started-at="2019-12-04T08:24:18Z" finished-at="2019-12-04T08:24:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@9d9c55]" name="preCondition" is-config="true" duration-ms="4335" started-at="2019-12-03T15:38:35Z" finished-at="2019-12-03T15:38:39Z">
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:TEST.TestLogin@1a57a3b]" name="preCondition" is-config="true" duration-ms="4557" started-at="2019-12-04T08:24:18Z" finished-at="2019-12-04T08:24:23Z">
           <params>
             <param index="0">
               <value>
@@ -49,7 +55,38 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="DD_Login_data(java.lang.String, java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@9d9c55]" name="DD_Login_data" duration-ms="8893" started-at="2019-12-03T15:38:39Z" data-provider="Authentication" finished-at="2019-12-03T15:38:48Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:TEST.TestLogin@1a57a3b]" name="login" duration-ms="7962" started-at="2019-12-04T08:24:23Z" finished-at="2019-12-04T08:24:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Method Start :login]]>
+            </line>
+            <line>
+              <![CDATA[Test Method Success :login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:TEST.TestLogin@1a57a3b]" name="postCondition" is-config="true" duration-ms="2222" started-at="2019-12-04T08:24:31Z" finished-at="2019-12-04T08:24:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:TEST.TestLogin@1a57a3b]" name="endReport" is-config="true" duration-ms="757" started-at="2019-12-04T08:25:35Z" finished-at="2019-12-04T08:25:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- TEST.TestLogin -->
+      <class name="TEST.TestDataProviderATSLogin">
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@a48474]" name="preCondition" is-config="true" duration-ms="4417" started-at="2019-12-04T08:24:34Z" finished-at="2019-12-04T08:24:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="DD_Login_data(java.lang.String, java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@a48474]" name="DD_Login_data" duration-ms="11839" started-at="2019-12-04T08:24:38Z" data-provider="Authentication" finished-at="2019-12-04T08:24:50Z">
           <params>
             <param index="0">
               <value>
@@ -71,11 +108,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- DD_Login_data -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:TEST.TestDataProviderATSLogin@9d9c55]" name="postCondition" is-config="true" duration-ms="214" started-at="2019-12-03T15:38:48Z" finished-at="2019-12-03T15:38:48Z">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:TEST.TestDataProviderATSLogin@a48474]" name="postCondition" is-config="true" duration-ms="170" started-at="2019-12-04T08:24:50Z" finished-at="2019-12-04T08:24:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@9d9c55]" name="preCondition" is-config="true" duration-ms="3600" started-at="2019-12-03T15:38:48Z" finished-at="2019-12-03T15:38:52Z">
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@a48474]" name="preCondition" is-config="true" duration-ms="4024" started-at="2019-12-04T08:24:50Z" finished-at="2019-12-04T08:24:54Z">
           <params>
             <param index="0">
               <value>
@@ -86,7 +123,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="DD_Login_data(java.lang.String, java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@9d9c55]" name="DD_Login_data" duration-ms="7751" started-at="2019-12-03T15:38:52Z" data-provider="Authentication" finished-at="2019-12-03T15:38:59Z">
+        <test-method status="PASS" signature="DD_Login_data(java.lang.String, java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@a48474]" name="DD_Login_data" duration-ms="7981" started-at="2019-12-04T08:24:54Z" data-provider="Authentication" finished-at="2019-12-04T08:25:02Z">
           <params>
             <param index="0">
               <value>
@@ -108,11 +145,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- DD_Login_data -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:TEST.TestDataProviderATSLogin@9d9c55]" name="postCondition" is-config="true" duration-ms="175" started-at="2019-12-03T15:38:59Z" finished-at="2019-12-03T15:39:00Z">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:TEST.TestDataProviderATSLogin@a48474]" name="postCondition" is-config="true" duration-ms="247" started-at="2019-12-04T08:25:02Z" finished-at="2019-12-04T08:25:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@9d9c55]" name="preCondition" is-config="true" duration-ms="3663" started-at="2019-12-03T15:39:00Z" finished-at="2019-12-03T15:39:03Z">
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@a48474]" name="preCondition" is-config="true" duration-ms="4364" started-at="2019-12-04T08:25:02Z" finished-at="2019-12-04T08:25:07Z">
           <params>
             <param index="0">
               <value>
@@ -123,7 +160,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="DD_Login_data(java.lang.String, java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@9d9c55]" name="DD_Login_data" duration-ms="8734" started-at="2019-12-03T15:39:03Z" data-provider="Authentication" finished-at="2019-12-03T15:39:12Z">
+        <test-method status="PASS" signature="DD_Login_data(java.lang.String, java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@a48474]" name="DD_Login_data" duration-ms="11931" started-at="2019-12-04T08:25:07Z" data-provider="Authentication" finished-at="2019-12-04T08:25:19Z">
           <params>
             <param index="0">
               <value>
@@ -145,11 +182,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- DD_Login_data -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:TEST.TestDataProviderATSLogin@9d9c55]" name="postCondition" is-config="true" duration-ms="151" started-at="2019-12-03T15:39:12Z" finished-at="2019-12-03T15:39:12Z">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:TEST.TestDataProviderATSLogin@a48474]" name="postCondition" is-config="true" duration-ms="579" started-at="2019-12-04T08:25:19Z" finished-at="2019-12-04T08:25:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@9d9c55]" name="preCondition" is-config="true" duration-ms="3539" started-at="2019-12-03T15:39:12Z" finished-at="2019-12-03T15:39:16Z">
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@a48474]" name="preCondition" is-config="true" duration-ms="3954" started-at="2019-12-04T08:25:19Z" finished-at="2019-12-04T08:25:23Z">
           <params>
             <param index="0">
               <value>
@@ -160,7 +197,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="DD_Login_data(java.lang.String, java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@9d9c55]" name="DD_Login_data" duration-ms="8717" started-at="2019-12-03T15:39:16Z" data-provider="Authentication" finished-at="2019-12-03T15:39:24Z">
+        <test-method status="PASS" signature="DD_Login_data(java.lang.String, java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@a48474]" name="DD_Login_data" duration-ms="11772" started-at="2019-12-04T08:25:23Z" data-provider="Authentication" finished-at="2019-12-04T08:25:35Z">
           <params>
             <param index="0">
               <value>
@@ -182,14 +219,10 @@
             </line>
           </reporter-output>
         </test-method> <!-- DD_Login_data -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:TEST.TestDataProviderATSLogin@9d9c55]" name="postCondition" is-config="true" duration-ms="307" started-at="2019-12-03T15:39:24Z" finished-at="2019-12-03T15:39:25Z">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:TEST.TestDataProviderATSLogin@a48474]" name="postCondition" is-config="true" duration-ms="207" started-at="2019-12-04T08:25:35Z" finished-at="2019-12-04T08:25:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:TEST.TestDataProviderATSLogin@9d9c55]" name="endReport" is-config="true" duration-ms="425" started-at="2019-12-03T15:39:25Z" finished-at="2019-12-03T15:39:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endReport -->
       </class> <!-- TEST.TestDataProviderATSLogin -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

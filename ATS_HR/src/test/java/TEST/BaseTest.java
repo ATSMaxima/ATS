@@ -97,6 +97,4 @@ public static WebDriver driver;
 		extent.flush();
 		//extent.close();
 	}
-
-
 }

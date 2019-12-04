@@ -44,7 +44,13 @@ public class TestDataProviderATSLogin extends BaseTest {
 
 			//count++;
 		}
+
+		
+		while (str.equalsIgnoreCase("Applicant Tracking System")){
 			
+		}
+			
+		
 	}
 
 	@DataProvider

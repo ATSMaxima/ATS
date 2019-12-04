@@ -19,11 +19,11 @@ public class TestDataProviderATSLogin extends BaseTest {
 		String str = driver.getTitle();
 		CommonActions.waitTime(2000);
 		System.out.println("Title of page is : " + str);
-		if(str.contains("Applicant Tracking System"))
-		 {
-			rv.logoutlist();
-			rv.logoutClick();
-		 }
+		// if(str.contains("Applicant Tracking System"))
+		// {
+		// rv.logoutlist();
+		// rv.logoutClick();
+		// }
 
 		for (int i = 1; i < 5; i++) {
 			  
@@ -44,7 +44,13 @@ public class TestDataProviderATSLogin extends BaseTest {
 
 			//count++;
 		}
+
+		
+		while (str.equalsIgnoreCase("Applicant Tracking System")){
 			
+		}
+			
+		
 	}
 
 	@DataProvider
