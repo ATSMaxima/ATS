@@ -78,11 +78,15 @@ public class ExcelReader implements AutoConstants {
 			ExcelWSheet = ExcelWBook.getSheet(sheetname);
 			row = ExcelWSheet.getRow(rownum);
 			cell = row.createCell(cellnum);
-			cell.setCellValue(value);
+			cell.setCellValue(value+"--"+System.currentTimeMillis());
 			ExcelWBook.write(new FileOutputStream(path));
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
+	
+	
+	
+	
 
 }

@@ -16,7 +16,7 @@ public interface AutoConstants {
 	
 //Folder Paths
 	String SCREENSHOT_LOC = "../ATS_HR/FailedScreenShots/";
-	String DD_LOGIN_EXCEL = "../ATS_HR/ExcelFiles/ATS_Login_2.xlsx";
+	String DD_LOGIN_EXCEL = "../ATS_HR/ExcelFiles/ATS_Login_1.xlsx";
 	String SHEET_NAME = "Sheet1";
 	String DD_Registration_EXCEL = "../ATS_HR/ExcelFiles/ATS_Registration_2.xlsx";
 	

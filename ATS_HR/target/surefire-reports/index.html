@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TEST.Test_Add_Job" hash-for-method="addJob">addJob</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -116,7 +102,22 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TEST.TestLogin" hash-for-method="login">login</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TEST.TestDataProviderATSLogin" hash-for-method="DD_Login_data(ashingote, ashingote)">DD_Login_data(ashingote, ashingote)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TEST.TestDataProviderATSLogin" hash-for-method="DD_Login_data(hitesh, hitesh@123)">DD_Login_data(hitesh, hitesh@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TEST.TestDataProviderATSLogin" hash-for-method="DD_Login_data(manish, manish@123)">DD_Login_data(manish, manish@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TEST.TestDataProviderATSLogin" hash-for-method="DD_Login_data(ketan, ketan@123)">DD_Login_data(ketan, ketan@123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -131,58 +132,42 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">TEST.Test_Add_Job</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="addJob">
-                  </a> <!-- addJob -->
-                  <span class="method-name">addJob</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;shutter-out-horizontal&apos;]&quot;}
-  (Session info: chrome=78.0.3904.108)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;MXITD037&apos;, ip: &apos;192.168.10.225&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\AMOL~1.SHI\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:55478}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c6de8d0a6084db311267ed4112d7cde2
-*** Element info: {Using=xpath, value=//a[@class=&apos;shutter-out-horizontal&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy12.click(Unknown Source)
-	at POM.Base_CommonComponent.logoutlist(Base_CommonComponent.java:63)
-	at TEST.Test_Add_Job.addJob(Test_Add_Job.java:40)
-... Removed 33 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">TEST.TestLogin</span>
+              <span class="class-name">TEST.TestDataProviderATSLogin</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="login">
-                  </a> <!-- login -->
-                  <span class="method-name">login</span>
+                  <a name="DD_Login_data(ashingote, ashingote)">
+                  </a> <!-- DD_Login_data(ashingote, ashingote) -->
+                  <span class="method-name">DD_Login_data</span>
+                  <span class="parameters">(ashingote, ashingote)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DD_Login_data(hitesh, hitesh@123)">
+                  </a> <!-- DD_Login_data(hitesh, hitesh@123) -->
+                  <span class="method-name">DD_Login_data</span>
+                  <span class="parameters">(hitesh, hitesh@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DD_Login_data(manish, manish@123)">
+                  </a> <!-- DD_Login_data(manish, manish@123) -->
+                  <span class="method-name">DD_Login_data</span>
+                  <span class="parameters">(manish, manish@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DD_Login_data(ketan, ketan@123)">
+                  </a> <!-- DD_Login_data(ketan, ketan@123) -->
+                  <span class="method-name">DD_Login_data</span>
+                  <span class="parameters">(ketan, ketan@123)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -200,8 +185,7 @@ Session ID: c6de8d0a6084db311267ed4112d7cde2
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
     &lt;parameter name=&quot;browsername&quot; value=&quot;Chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;TEST.TestLogin&quot;/&gt;
-      &lt;class name=&quot;TEST.Test_Add_Job&quot;/&gt;
+      &lt;class name=&quot;TEST.TestDataProviderATSLogin&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -215,7 +199,7 @@ Session ID: c6de8d0a6084db311267ed4112d7cde2
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -241,20 +225,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'addJob')
-data.setCell(0, 2, 'TEST.Test_Add_Job')
-data.setCell(0, 3, 78331);
+data.setCell(0, 1, 'DD_Login_data')
+data.setCell(0, 2, 'TEST.TestDataProviderATSLogin')
+data.setCell(0, 3, 8893);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'login')
-data.setCell(1, 2, 'TEST.TestLogin')
-data.setCell(1, 3, 8268);
+data.setCell(1, 1, 'DD_Login_data')
+data.setCell(1, 2, 'TEST.TestDataProviderATSLogin')
+data.setCell(1, 3, 8734);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'DD_Login_data')
+data.setCell(2, 2, 'TEST.TestDataProviderATSLogin')
+data.setCell(2, 3, 8717);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'DD_Login_data')
+data.setCell(3, 2, 'TEST.TestDataProviderATSLogin')
+data.setCell(3, 3, 7751);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 34 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -266,35 +258,40 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">login</span>
+              <span class="reporter-method-name">DD_Login_data(ashingote, ashingote)</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test Method Start :login</span>
-                <span class="reporter-method-output">Test Method Success :login</span>
+                <span class="reporter-method-output">Test Method Start :DD_Login_data</span>
+                <span class="reporter-method-output">Test Method Success :DD_Login_data</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">addJob</span>
+              <span class="reporter-method-name">DD_Login_data(hitesh, hitesh@123)</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test Method Start :addJob</span>
-                <span class="reporter-method-output">Test Method Failed : addJob</span>
+                <span class="reporter-method-output">Test Method Start :DD_Login_data</span>
+                <span class="reporter-method-output">Test Method Success :DD_Login_data</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">DD_Login_data(manish, manish@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Method Start :DD_Login_data</span>
+                <span class="reporter-method-output">Test Method Success :DD_Login_data</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">DD_Login_data(ketan, ketan@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Method Start :DD_Login_data</span>
+                <span class="reporter-method-output">Test Method Success :DD_Login_data</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">TEST.Test_Add_Job</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">startReport</span>
-                <br/>
-                <span class="ignored-method-name">endReport</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -303,46 +300,62 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">TEST.TestLogin</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">TEST.TestDataProviderATSLogin</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">startReport</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">preCondition(Chrome)</span>
-                <span class="method-start">306 ms</span>
+                <span class="method-start">754 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">login</span>
-                <span class="method-start">4921 ms</span>
+                <span class="method-name">DD_Login_data(hitesh, hitesh@123)</span>
+                <span class="method-start">5089 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postCondition</span>
-                <span class="method-start">13199 ms</span>
+                <span class="method-start">13992 ms</span>
               </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">TEST.Test_Add_Job</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">preCondition(Chrome)</span>
-                <span class="method-start">13420 ms</span>
+                <span class="method-start">14206 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">addJob</span>
-                <span class="method-start">17094 ms</span>
+                <span class="method-name">DD_Login_data(manish, manish@123)</span>
+                <span class="method-start">17806 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postCondition</span>
-                <span class="method-start">95806 ms</span>
+                <span class="method-start">25557 ms</span>
               </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">TEST.TestLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">preCondition(Chrome)</span>
+                <span class="method-start">25733 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DD_Login_data(ketan, ketan@123)</span>
+                <span class="method-start">29396 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">postCondition</span>
+                <span class="method-start">38131 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">preCondition(Chrome)</span>
+                <span class="method-start">38282 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DD_Login_data(ashingote, ashingote)</span>
+                <span class="method-start">41821 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">postCondition</span>
+                <span class="method-start">50539 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">endReport</span>
-                <span class="method-start">97858 ms</span>
+                <span class="method-start">50847 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
