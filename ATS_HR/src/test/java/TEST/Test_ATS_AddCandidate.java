@@ -1,6 +1,8 @@
 package TEST;
 
 import org.testng.annotations.Test;
+
+import Generic.CommonActions;
 import POM.ATS_Login;
 import POM.Add_Candidate;
 
@@ -30,6 +32,7 @@ public class Test_ATS_AddCandidate extends BaseTest{
 		ac.candidateSubmitButton();	
 		ac.logoutlist();
 		ac.logoutClick();
+		CommonActions.softAssert();
 	}
 	
 //Uploading the Resume Information using parsing
@@ -54,6 +57,7 @@ public class Test_ATS_AddCandidate extends BaseTest{
 		ac.candidateSubmitButton();
 		ac.logoutlist();
 		ac.logoutClick();
+		CommonActions.softAssert();
 	}
 	
 }

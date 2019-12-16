@@ -44,7 +44,6 @@
 <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="org.testng.Reporter"/>
-<fullyQualifiedTypeName name="org.testng.asserts.SoftAssert"/>
 <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
 <fullyQualifiedTypeName name="TEST.ATS_AddCandidateManually"/>
 <fullyQualifiedTypeName name="POM.ATS_Login"/>
@@ -58,6 +57,7 @@
 <fullyQualifiedTypeName name="TEST.BaseTest"/>
 <fullyQualifiedTypeName name="TEST.Test_DataProviderATSRegistrarion"/>
 <fullyQualifiedTypeName name="POM.ATS_Registration"/>
-<fullyQualifiedTypeName name="Generic.CommonActions"/>
 <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="org.testng.asserts.SoftAssert"/>
+<fullyQualifiedTypeName name="Generic.CommonActions"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,10 @@
+System.setProperty("hudson.model.DirectoryBrowserSupport.CSP","");
+
+
+
+using command prompt use following script:
+
+'java -Dhudson.model.DirectoryBrowserSupport.CSP="" -jar jenkins.war'
+
+Reference : 
+https://wiki.jenkins-ci.org/display/JENKINS/Configuring+Content+Security+Policy#ConfiguringContentSecurityPolicy-HTMLPublisherPlugin

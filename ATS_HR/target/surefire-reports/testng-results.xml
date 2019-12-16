@@ -1,14 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="7" passed="5">
+<testng-results skipped="3" failed="0" ignored="6" total="16" passed="7">
   <reporter-output>
     <line>
-      <![CDATA[Test Execution Start : Test]]>
+      <![CDATA[Test Execution Start : Smoke]]>
     </line>
     <line>
       <![CDATA[Test Method Start :login]]>
     </line>
     <line>
       <![CDATA[Test Method Success :login]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Start :registration]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Success :registration]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Start :DD_Registration_data]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Success :DD_Registration_data]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Skipped :DD_Registration_data]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Skipped :DD_Registration_data]]>
+    </line>
+    <line>
+      <![CDATA[Test Method Skipped :DD_Registration_data]]>
     </line>
     <line>
       <![CDATA[Test Method Start :DD_Login_data]]>
@@ -35,16 +56,16 @@
       <![CDATA[Test Method Success :DD_Login_data]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="77995" started-at="2019-12-04T08:24:18Z" finished-at="2019-12-04T08:25:36Z">
+  <suite name="Suite" duration-ms="105048" started-at="2019-12-12T13:01:01Z" finished-at="2019-12-12T13:02:46Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="77995" started-at="2019-12-04T08:24:18Z" finished-at="2019-12-04T08:25:36Z">
+    <test name="Smoke" duration-ms="105048" started-at="2019-12-12T13:01:01Z" finished-at="2019-12-12T13:02:46Z">
       <class name="TEST.TestLogin">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:TEST.TestLogin@1a57a3b]" name="startReport" is-config="true" duration-ms="262" started-at="2019-12-04T08:24:18Z" finished-at="2019-12-04T08:24:18Z">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:TEST.TestLogin@9711b]" name="startReport" is-config="true" duration-ms="196" started-at="2019-12-12T13:01:01Z" finished-at="2019-12-12T13:01:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:TEST.TestLogin@1a57a3b]" name="preCondition" is-config="true" duration-ms="4557" started-at="2019-12-04T08:24:18Z" finished-at="2019-12-04T08:24:23Z">
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:TEST.TestLogin@9711b]" name="preCondition" is-config="true" duration-ms="4372" started-at="2019-12-12T13:01:01Z" finished-at="2019-12-12T13:01:05Z">
           <params>
             <param index="0">
               <value>
@@ -55,7 +76,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="login()[pri:0, instance:TEST.TestLogin@1a57a3b]" name="login" duration-ms="7962" started-at="2019-12-04T08:24:23Z" finished-at="2019-12-04T08:24:31Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:TEST.TestLogin@9711b]" name="login" duration-ms="7763" started-at="2019-12-12T13:01:05Z" finished-at="2019-12-12T13:01:13Z">
           <reporter-output>
             <line>
               <![CDATA[Test Method Start :login]]>
@@ -65,17 +86,13 @@
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:TEST.TestLogin@1a57a3b]" name="postCondition" is-config="true" duration-ms="2222" started-at="2019-12-04T08:24:31Z" finished-at="2019-12-04T08:24:33Z">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:TEST.TestLogin@9711b]" name="postCondition" is-config="true" duration-ms="187" started-at="2019-12-12T13:01:13Z" finished-at="2019-12-12T13:01:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:TEST.TestLogin@1a57a3b]" name="endReport" is-config="true" duration-ms="757" started-at="2019-12-04T08:25:35Z" finished-at="2019-12-04T08:25:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endReport -->
       </class> <!-- TEST.TestLogin -->
-      <class name="TEST.TestDataProviderATSLogin">
-        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@a48474]" name="preCondition" is-config="true" duration-ms="4417" started-at="2019-12-04T08:24:34Z" finished-at="2019-12-04T08:24:38Z">
+      <class name="TEST.Test_ATS_Registration">
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:TEST.Test_ATS_Registration@c7c2a6]" name="preCondition" is-config="true" duration-ms="4151" started-at="2019-12-12T13:01:13Z" finished-at="2019-12-12T13:01:17Z">
           <params>
             <param index="0">
               <value>
@@ -86,7 +103,331 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="DD_Login_data(java.lang.String, java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@a48474]" name="DD_Login_data" duration-ms="11839" started-at="2019-12-04T08:24:38Z" data-provider="Authentication" finished-at="2019-12-04T08:24:50Z">
+        <test-method status="PASS" signature="registration()[pri:0, instance:TEST.Test_ATS_Registration@c7c2a6]" name="registration" duration-ms="3532" started-at="2019-12-12T13:01:17Z" finished-at="2019-12-12T13:01:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Method Start :registration]]>
+            </line>
+            <line>
+              <![CDATA[Test Method Success :registration]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:TEST.Test_ATS_Registration@c7c2a6]" name="postCondition" is-config="true" duration-ms="2304" started-at="2019-12-12T13:01:21Z" finished-at="2019-12-12T13:01:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- TEST.Test_ATS_Registration -->
+      <class name="TEST.Test_DataProviderATSRegistration">
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:TEST.Test_DataProviderATSRegistration@197c004]" name="preCondition" is-config="true" duration-ms="3632" started-at="2019-12-12T13:01:24Z" finished-at="2019-12-12T13:01:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="DD_Registration_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TEST.Test_DataProviderATSRegistration@197c004]" name="DD_Registration_data" duration-ms="3340" started-at="2019-12-12T13:01:28Z" data-provider="Authentication" finished-at="2019-12-12T13:01:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Manager]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[am@maxima.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[am@maxima.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Method Start :DD_Registration_data]]>
+            </line>
+            <line>
+              <![CDATA[Test Method Success :DD_Registration_data]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DD_Registration_data -->
+        <test-method status="FAIL" signature="aftertestmethod()[pri:0, instance:TEST.Test_DataProviderATSRegistration@197c004]" name="aftertestmethod" is-config="true" duration-ms="1" started-at="2019-12-12T13:01:31Z" finished-at="2019-12-12T13:01:31Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at TEST.Test_DataProviderATSRegistration.aftertestmethod(Test_DataProviderATSRegistration.java:48)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertestmethod -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:TEST.Test_DataProviderATSRegistration@197c004]" name="postCondition" is-config="true" duration-ms="187" started-at="2019-12-12T13:01:31Z" finished-at="2019-12-12T13:01:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:TEST.Test_DataProviderATSRegistration@197c004]" name="preCondition" is-config="true" duration-ms="3652" started-at="2019-12-12T13:01:31Z" finished-at="2019-12-12T13:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="SKIP" signature="DD_Registration_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TEST.Test_DataProviderATSRegistration@197c004]" name="DD_Registration_data" duration-ms="0" started-at="2019-12-12T13:01:35Z" data-provider="Authentication" finished-at="2019-12-12T13:01:35Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at TEST.Test_DataProviderATSRegistration.aftertestmethod(Test_DataProviderATSRegistration.java:48)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Method Skipped :DD_Registration_data]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DD_Registration_data -->
+        <test-method status="SKIP" signature="aftertestmethod()[pri:0, instance:TEST.Test_DataProviderATSRegistration@197c004]" name="aftertestmethod" is-config="true" duration-ms="0" started-at="2019-12-12T13:01:35Z" finished-at="2019-12-12T13:01:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertestmethod -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:TEST.Test_DataProviderATSRegistration@197c004]" name="postCondition" is-config="true" duration-ms="2335" started-at="2019-12-12T13:01:35Z" finished-at="2019-12-12T13:01:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:TEST.Test_DataProviderATSRegistration@197c004]" name="preCondition" is-config="true" duration-ms="3668" started-at="2019-12-12T13:01:37Z" finished-at="2019-12-12T13:01:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="SKIP" signature="DD_Registration_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TEST.Test_DataProviderATSRegistration@197c004]" name="DD_Registration_data" duration-ms="0" started-at="2019-12-12T13:01:41Z" data-provider="Authentication" finished-at="2019-12-12T13:01:41Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at TEST.Test_DataProviderATSRegistration.aftertestmethod(Test_DataProviderATSRegistration.java:48)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Method Skipped :DD_Registration_data]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DD_Registration_data -->
+        <test-method status="SKIP" signature="aftertestmethod()[pri:0, instance:TEST.Test_DataProviderATSRegistration@197c004]" name="aftertestmethod" is-config="true" duration-ms="0" started-at="2019-12-12T13:01:41Z" finished-at="2019-12-12T13:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertestmethod -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:TEST.Test_DataProviderATSRegistration@197c004]" name="postCondition" is-config="true" duration-ms="185" started-at="2019-12-12T13:01:41Z" finished-at="2019-12-12T13:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:TEST.Test_DataProviderATSRegistration@197c004]" name="preCondition" is-config="true" duration-ms="3773" started-at="2019-12-12T13:01:41Z" finished-at="2019-12-12T13:01:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="SKIP" signature="DD_Registration_data(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TEST.Test_DataProviderATSRegistration@197c004]" name="DD_Registration_data" duration-ms="0" started-at="2019-12-12T13:01:45Z" data-provider="Authentication" finished-at="2019-12-12T13:01:45Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at TEST.Test_DataProviderATSRegistration.aftertestmethod(Test_DataProviderATSRegistration.java:48)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Method Skipped :DD_Registration_data]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DD_Registration_data -->
+        <test-method status="SKIP" signature="aftertestmethod()[pri:0, instance:TEST.Test_DataProviderATSRegistration@197c004]" name="aftertestmethod" is-config="true" duration-ms="0" started-at="2019-12-12T13:01:45Z" finished-at="2019-12-12T13:01:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertestmethod -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:TEST.Test_DataProviderATSRegistration@197c004]" name="postCondition" is-config="true" duration-ms="240" started-at="2019-12-12T13:01:45Z" finished-at="2019-12-12T13:01:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- TEST.Test_DataProviderATSRegistration -->
+      <class name="TEST.TestDataProviderATSLogin">
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@190c9c3]" name="preCondition" is-config="true" duration-ms="3713" started-at="2019-12-12T13:01:45Z" finished-at="2019-12-12T13:01:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="DD_Login_data(java.lang.String, java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@190c9c3]" name="DD_Login_data" duration-ms="11533" started-at="2019-12-12T13:01:49Z" data-provider="Authentication" finished-at="2019-12-12T13:02:00Z">
           <params>
             <param index="0">
               <value>
@@ -108,11 +449,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- DD_Login_data -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:TEST.TestDataProviderATSLogin@a48474]" name="postCondition" is-config="true" duration-ms="170" started-at="2019-12-04T08:24:50Z" finished-at="2019-12-04T08:24:50Z">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:TEST.TestDataProviderATSLogin@190c9c3]" name="postCondition" is-config="true" duration-ms="2213" started-at="2019-12-12T13:02:00Z" finished-at="2019-12-12T13:02:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@a48474]" name="preCondition" is-config="true" duration-ms="4024" started-at="2019-12-04T08:24:50Z" finished-at="2019-12-04T08:24:54Z">
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@190c9c3]" name="preCondition" is-config="true" duration-ms="3610" started-at="2019-12-12T13:02:02Z" finished-at="2019-12-12T13:02:06Z">
           <params>
             <param index="0">
               <value>
@@ -123,7 +464,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="DD_Login_data(java.lang.String, java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@a48474]" name="DD_Login_data" duration-ms="7981" started-at="2019-12-04T08:24:54Z" data-provider="Authentication" finished-at="2019-12-04T08:25:02Z">
+        <test-method status="PASS" signature="DD_Login_data(java.lang.String, java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@190c9c3]" name="DD_Login_data" duration-ms="7707" started-at="2019-12-12T13:02:06Z" data-provider="Authentication" finished-at="2019-12-12T13:02:14Z">
           <params>
             <param index="0">
               <value>
@@ -145,11 +486,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- DD_Login_data -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:TEST.TestDataProviderATSLogin@a48474]" name="postCondition" is-config="true" duration-ms="247" started-at="2019-12-04T08:25:02Z" finished-at="2019-12-04T08:25:02Z">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:TEST.TestDataProviderATSLogin@190c9c3]" name="postCondition" is-config="true" duration-ms="280" started-at="2019-12-12T13:02:14Z" finished-at="2019-12-12T13:02:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@a48474]" name="preCondition" is-config="true" duration-ms="4364" started-at="2019-12-04T08:25:02Z" finished-at="2019-12-04T08:25:07Z">
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@190c9c3]" name="preCondition" is-config="true" duration-ms="3585" started-at="2019-12-12T13:02:14Z" finished-at="2019-12-12T13:02:18Z">
           <params>
             <param index="0">
               <value>
@@ -160,7 +501,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="DD_Login_data(java.lang.String, java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@a48474]" name="DD_Login_data" duration-ms="11931" started-at="2019-12-04T08:25:07Z" data-provider="Authentication" finished-at="2019-12-04T08:25:19Z">
+        <test-method status="PASS" signature="DD_Login_data(java.lang.String, java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@190c9c3]" name="DD_Login_data" duration-ms="11599" started-at="2019-12-12T13:02:18Z" data-provider="Authentication" finished-at="2019-12-12T13:02:29Z">
           <params>
             <param index="0">
               <value>
@@ -182,11 +523,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- DD_Login_data -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:TEST.TestDataProviderATSLogin@a48474]" name="postCondition" is-config="true" duration-ms="579" started-at="2019-12-04T08:25:19Z" finished-at="2019-12-04T08:25:19Z">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:TEST.TestDataProviderATSLogin@190c9c3]" name="postCondition" is-config="true" duration-ms="174" started-at="2019-12-12T13:02:29Z" finished-at="2019-12-12T13:02:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@a48474]" name="preCondition" is-config="true" duration-ms="3954" started-at="2019-12-04T08:25:19Z" finished-at="2019-12-04T08:25:23Z">
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@190c9c3]" name="preCondition" is-config="true" duration-ms="3556" started-at="2019-12-12T13:02:29Z" finished-at="2019-12-12T13:02:33Z">
           <params>
             <param index="0">
               <value>
@@ -197,7 +538,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="DD_Login_data(java.lang.String, java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@a48474]" name="DD_Login_data" duration-ms="11772" started-at="2019-12-04T08:25:23Z" data-provider="Authentication" finished-at="2019-12-04T08:25:35Z">
+        <test-method status="PASS" signature="DD_Login_data(java.lang.String, java.lang.String)[pri:0, instance:TEST.TestDataProviderATSLogin@190c9c3]" name="DD_Login_data" duration-ms="11695" started-at="2019-12-12T13:02:33Z" data-provider="Authentication" finished-at="2019-12-12T13:02:45Z">
           <params>
             <param index="0">
               <value>
@@ -219,11 +560,19 @@
             </line>
           </reporter-output>
         </test-method> <!-- DD_Login_data -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:TEST.TestDataProviderATSLogin@a48474]" name="postCondition" is-config="true" duration-ms="207" started-at="2019-12-04T08:25:35Z" finished-at="2019-12-04T08:25:35Z">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:TEST.TestDataProviderATSLogin@190c9c3]" name="postCondition" is-config="true" duration-ms="258" started-at="2019-12-12T13:02:45Z" finished-at="2019-12-12T13:02:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="aftertestmethod()[pri:0, instance:TEST.TestDataProviderATSLogin@190c9c3]" name="aftertestmethod" is-config="true" duration-ms="334" started-at="2019-12-12T13:02:45Z" finished-at="2019-12-12T13:02:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertestmethod -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:TEST.TestLogin@9711b]" name="endReport" is-config="true" duration-ms="451" started-at="2019-12-12T13:02:45Z" depends-on-methods="TEST.TestDataProviderATSLogin.aftertestmethod" finished-at="2019-12-12T13:02:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
       </class> <!-- TEST.TestDataProviderATSLogin -->
-    </test> <!-- Test -->
+    </test> <!-- Smoke -->
   </suite> <!-- Suite -->
 </testng-results>

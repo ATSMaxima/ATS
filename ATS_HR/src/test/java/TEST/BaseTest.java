@@ -1,6 +1,6 @@
 package TEST;
 
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeUnit; 
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -17,7 +17,6 @@ import org.testng.annotations.Parameters;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
-import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import Generic.AutoConstants;
@@ -41,11 +40,10 @@ public static WebDriver driver;
 		extent.setSystemInfo("Environment", "Automation Testing");
 		extent.setSystemInfo("User Name", "Amol");
 
-		htmlReporter.config().setDocumentTitle("ECFW Extent Report");
+		htmlReporter.config().setDocumentTitle("ATS Issue Report");
 		htmlReporter.config().setReportName("Amol Shingote");
-		htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
 		htmlReporter.config().setTheme(Theme.STANDARD);
-        htmlReporter.config().setChartVisibilityOnOpen(true);
+       
 	}
 	
 	
@@ -70,21 +68,11 @@ public static WebDriver driver;
 		}
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
-		//driver.manage().deleteAllCookies();
+		driver.manage().deleteAllCookies();
 		String str = PropertyFileReader.getPropertyValue("url");
 		driver.get(str);
 	}
-	/*@AfterMethod(alwaysRun=true)
-	public void testResult(ITestResult result)
-	{
-		String testmethodname = result.getName();
-		int status = result.getStatus();
-		if(status==2)
-		{
-			ScreenShotHandling.getScreenShot(driver, testmethodname);
-		}
-		
-	}*/
+	
 	@AfterMethod(alwaysRun=true)
 	public void postCondition()
 	{

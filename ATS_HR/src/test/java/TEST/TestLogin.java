@@ -2,6 +2,7 @@ package TEST;
 
 import org.testng.annotations.Test;
 
+import Generic.CommonActions;
 import POM.ATS_Login;
 
 public class TestLogin extends BaseTest{
@@ -15,5 +16,6 @@ public class TestLogin extends BaseTest{
 		al.loginATS(UN, PW);
 		al.logoutlist();
 		al.logoutClick();
+		CommonActions.softAssert();
 	}
 }

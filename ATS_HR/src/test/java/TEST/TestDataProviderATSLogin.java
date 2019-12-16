@@ -1,5 +1,6 @@
 package TEST;
 
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -8,6 +9,8 @@ import Generic.ExcelReader;
 import POM.ATS_Login;
 
 public class TestDataProviderATSLogin extends BaseTest {
+	String str = null ;
+	int count = 1 ;
 	@Test(dataProvider = "Authentication")
 	public void DD_Login_data(String sUserName, String sPassword) throws Exception {
 		l = extent.createTest("DD_Login_data");
@@ -16,7 +19,8 @@ public class TestDataProviderATSLogin extends BaseTest {
 		System.out.println(" Password is " + sPassword);
 		rv.loginATS(sUserName, sUserName);
 		CommonActions.waitTime(2000);
-		String str = driver.getTitle();
+//		String str = driver.getTitle();
+		str = driver.getTitle();
 		CommonActions.waitTime(2000);
 		System.out.println("Title of page is : " + str);
 		if(str.contains("Applicant Tracking System"))
@@ -24,26 +28,7 @@ public class TestDataProviderATSLogin extends BaseTest {
 			rv.logoutlist();
 			rv.logoutClick();
 		 }
-
-		for (int i = 1; i < 5; i++) {
-			  
-		      //int count =1;
-			if (str.equalsIgnoreCase("Login")) {
-				ExcelReader.setExcelData("Sheet1", i, 2, "fail", DD_LOGIN_EXCEL);
-				System.out.println("Test Case is failed "+i+"----");
-				
-				break;
-				
-				
-			} else if (str.contains("Applicant Tracking System")) {
-				ExcelReader.setExcelData("Sheet1", i, 2, "pass", DD_LOGIN_EXCEL);
-				System.out.println("Test Case is Passed " +i+ "-----");
-				
-			    break;
-			}
-
-			//count++;
-		}
+		CommonActions.softAssert();
 			
 	}
 
@@ -52,5 +37,22 @@ public class TestDataProviderATSLogin extends BaseTest {
 		Object[][] testObjArray = ExcelReader.getTableArray(DD_LOGIN_EXCEL, SHEET_NAME);
 		return testObjArray;
 	}
-
+    
+	@AfterTest
+	public void aftertestmethod (){
+		if (str.equalsIgnoreCase("Applicant Tracking System")) {
+			ExcelReader.setExcelData("Sheet1", count, 2, "pass", DD_LOGIN_EXCEL);
+			System.out.println("Test Case is Passed "+count+"----");
+		
+			
+		} else  {
+			
+			ExcelReader.setExcelData("Sheet1", count, 2, "fail", DD_LOGIN_EXCEL);
+			System.out.println("Test Case is Failed " +count+ "-----");			
+			
+		}
+		count++ ;		
+		
+	}
+	
 }

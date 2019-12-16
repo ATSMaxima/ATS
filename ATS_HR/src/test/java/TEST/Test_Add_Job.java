@@ -2,11 +2,12 @@ package TEST;
 
 import org.testng.annotations.Test;
 
+import Generic.CommonActions;
 import POM.ATS_JobPage;
 import POM.ATS_Login;
 
 public class Test_Add_Job extends BaseTest {
-	
+	String str = null;
 	@Test
 	public void addJob (){
 	l = extent.createTest("addJob");
@@ -37,8 +38,15 @@ public class Test_Add_Job extends BaseTest {
 	aj.get_Recruiters("hitesh");
 	aj.get_HiringProcess("External Client");
 	aj.click_addJob_on_Popup();
-	aj.logoutlist();
-	aj.logoutClick();
+	str = driver.getTitle();
+	CommonActions.waitTime(2000);
+	System.out.println("Title of page is : " + str);
+	if(str.contains("Applicant Tracking System"))
+	 {
+		aj.logoutlist();
+		aj.logoutClick();
+	 }
+	CommonActions.softAssert();
 	}
 
 }

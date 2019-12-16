@@ -14,6 +14,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.asserts.SoftAssert;
 
 public class CommonActions {
 //Select List Box
@@ -67,6 +68,13 @@ public class CommonActions {
 		WebDriverWait wait=new WebDriverWait(driver, time);
 		wait.until(ExpectedConditions.visibilityOf(ele));
 	}
+	
+//Soft Assert
+	public static void softAssert()
+	{
+		SoftAssert soft = new SoftAssert();
+		soft.assertAll();
+	}
 //file upload code
 	public static void fileUpload(String filePath, WebDriver driver)
 	{ 
@@ -114,4 +122,6 @@ public class CommonActions {
 			e.printStackTrace();
 		}
 	}
+	
+	
 }

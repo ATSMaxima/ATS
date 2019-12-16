@@ -27,8 +27,8 @@ public class ExcelReader implements AutoConstants {
 			int ci, cj;
 			int totalRows = ExcelWSheet.getLastRowNum();
 			int cellNo = ExcelWSheet.getRow(0).getLastCellNum();
-			System.out.println("rows---- "+totalRows);
-			System.out.println("columns----"+cellNo);
+			System.out.println("rows---- " + totalRows);
+			System.out.println("columns----" + cellNo);
 			// you can write a function as well to get Column count
 			int totalCols = cellNo;
 			tabObjArray = new String[totalRows][totalCols];
@@ -41,7 +41,7 @@ public class ExcelReader implements AutoConstants {
 			}
 
 		} catch (Exception e) {
-			//System.out.println(e);
+			// System.out.println(e);
 			e.printStackTrace();
 		}
 		return (tabObjArray);
@@ -54,13 +54,7 @@ public class ExcelReader implements AutoConstants {
 			cell = ExcelWSheet.getRow(RowNum).getCell(ColNum);
 			// int dataType = cell.getCellType();
 			// cell.setCellType(Cell.CELL_TYPE_STRING);
-			
-			if(cell.getCellType() == cell.CELL_TYPE_BLANK ){
-				
-				System.out.println("Cell is empty");
-			}else{
-				cell.setCellType(CellType.STRING);		
-			}
+			cell.setCellType(CellType.STRING);
 			String CellData = cell.getStringCellValue();
 			return CellData;
 		} catch (Exception e) {
@@ -84,9 +78,5 @@ public class ExcelReader implements AutoConstants {
 			e.printStackTrace();
 		}
 	}
-	
-	
-	
-	
 
 }

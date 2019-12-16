@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-skipped">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">10 methods,  3 skipped,  7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TEST.Test_DataProviderATSRegistration" hash-for-method="DD_Registration_data">DD_Registration_data</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TEST.Test_DataProviderATSRegistration" hash-for-method="DD_Registration_data">DD_Registration_data</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TEST.Test_DataProviderATSRegistration" hash-for-method="DD_Registration_data">DD_Registration_data</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,16 +124,6 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TEST.TestDataProviderATSLogin" hash-for-method="DD_Login_data(ketan, ketan@123)">DD_Login_data(ketan, ketan@123)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TEST.TestDataProviderATSLogin" hash-for-method="DD_Login_data(manish, manish@123)">DD_Login_data(manish, manish@123)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TEST.TestDataProviderATSLogin" hash-for-method="DD_Login_data(hitesh, hitesh@123)">DD_Login_data(hitesh, hitesh@123)</a> <!-- method navigator-link -->
@@ -122,7 +136,27 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TEST.TestDataProviderATSLogin" hash-for-method="DD_Login_data(ketan, ketan@123)">DD_Login_data(ketan, ketan@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TEST.TestDataProviderATSLogin" hash-for-method="DD_Login_data(manish, manish@123)">DD_Login_data(manish, manish@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TEST.Test_DataProviderATSRegistration" hash-for-method="DD_Registration_data(admin, Admin , Manager, am@maxima.com, am@maxima.com, admin)">DD_Registration_data(admin, Admin , Manager, am@maxima.com, am@maxima.com, admin)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TEST.TestLogin" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TEST.Test_ATS_Registration" hash-for-method="registration">registration</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -137,28 +171,84 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TEST.Test_DataProviderATSRegistration</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DD_Registration_data">
+                  </a> <!-- DD_Registration_data -->
+                  <span class="method-name">DD_Registration_data</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at TEST.Test_DataProviderATSRegistration.aftertestmethod(Test_DataProviderATSRegistration.java:48)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DD_Registration_data">
+                  </a> <!-- DD_Registration_data -->
+                  <span class="method-name">DD_Registration_data</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at TEST.Test_DataProviderATSRegistration.aftertestmethod(Test_DataProviderATSRegistration.java:48)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DD_Registration_data">
+                  </a> <!-- DD_Registration_data -->
+                  <span class="method-name">DD_Registration_data</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at TEST.Test_DataProviderATSRegistration.aftertestmethod(Test_DataProviderATSRegistration.java:48)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TEST.Test_DataProviderATSRegistration</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DD_Registration_data(admin, Admin , Manager, am@maxima.com, am@maxima.com, admin)">
+                  </a> <!-- DD_Registration_data(admin, Admin , Manager, am@maxima.com, am@maxima.com, admin) -->
+                  <span class="method-name">DD_Registration_data</span>
+                  <span class="parameters">(admin, Admin , Manager, am@maxima.com, am@maxima.com, admin)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TEST.Test_ATS_Registration</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registration">
+                  </a> <!-- registration -->
+                  <span class="method-name">registration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">TEST.TestDataProviderATSLogin</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="DD_Login_data(ketan, ketan@123)">
-                  </a> <!-- DD_Login_data(ketan, ketan@123) -->
-                  <span class="method-name">DD_Login_data</span>
-                  <span class="parameters">(ketan, ketan@123)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="DD_Login_data(manish, manish@123)">
-                  </a> <!-- DD_Login_data(manish, manish@123) -->
-                  <span class="method-name">DD_Login_data</span>
-                  <span class="parameters">(manish, manish@123)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="DD_Login_data(hitesh, hitesh@123)">
@@ -173,6 +263,22 @@
                   </a> <!-- DD_Login_data(ashingote, ashingote) -->
                   <span class="method-name">DD_Login_data</span>
                   <span class="parameters">(ashingote, ashingote)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DD_Login_data(ketan, ketan@123)">
+                  </a> <!-- DD_Login_data(ketan, ketan@123) -->
+                  <span class="method-name">DD_Login_data</span>
+                  <span class="parameters">(ketan, ketan@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DD_Login_data(manish, manish@123)">
+                  </a> <!-- DD_Login_data(manish, manish@123) -->
+                  <span class="method-name">DD_Login_data</span>
+                  <span class="parameters">(manish, manish@123)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -202,13 +308,15 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Smoke&quot;&gt;
     &lt;parameter name=&quot;browsername&quot; value=&quot;Chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;TEST.TestLogin&quot;/&gt;
+      &lt;class name=&quot;TEST.Test_ATS_Registration&quot;/&gt;
+      &lt;class name=&quot;TEST.Test_DataProviderATSRegistration&quot;/&gt;
       &lt;class name=&quot;TEST.TestDataProviderATSLogin&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;/test&gt; &lt;!-- Smoke --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -220,7 +328,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">Smoke (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -246,32 +354,52 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(10);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'DD_Login_data')
 data.setCell(0, 2, 'TEST.TestDataProviderATSLogin')
-data.setCell(0, 3, 11931);
+data.setCell(0, 3, 11695);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'DD_Login_data')
 data.setCell(1, 2, 'TEST.TestDataProviderATSLogin')
-data.setCell(1, 3, 11839);
+data.setCell(1, 3, 11599);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'DD_Login_data')
 data.setCell(2, 2, 'TEST.TestDataProviderATSLogin')
-data.setCell(2, 3, 11772);
+data.setCell(2, 3, 11533);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'DD_Login_data')
-data.setCell(3, 2, 'TEST.TestDataProviderATSLogin')
-data.setCell(3, 3, 7981);
+data.setCell(3, 1, 'login')
+data.setCell(3, 2, 'TEST.TestLogin')
+data.setCell(3, 3, 7763);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'login')
-data.setCell(4, 2, 'TEST.TestLogin')
-data.setCell(4, 3, 7962);
+data.setCell(4, 1, 'DD_Login_data')
+data.setCell(4, 2, 'TEST.TestDataProviderATSLogin')
+data.setCell(4, 3, 7707);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'registration')
+data.setCell(5, 2, 'TEST.Test_ATS_Registration')
+data.setCell(5, 3, 3532);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'DD_Registration_data')
+data.setCell(6, 2, 'TEST.Test_DataProviderATSRegistration')
+data.setCell(6, 3, 3340);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'DD_Registration_data')
+data.setCell(7, 2, 'TEST.Test_DataProviderATSRegistration')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'DD_Registration_data')
+data.setCell(8, 2, 'TEST.Test_DataProviderATSRegistration')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'DD_Registration_data')
+data.setCell(9, 2, 'TEST.Test_DataProviderATSRegistration')
+data.setCell(9, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 51 seconds</span>
+              <span class="suite-total-time">Total running time: 57 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -282,6 +410,41 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">login</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Method Start :login</span>
+                <span class="reporter-method-output">Test Method Success :login</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">registration</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Method Start :registration</span>
+                <span class="reporter-method-output">Test Method Success :registration</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">DD_Login_data(hitesh, hitesh@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Method Start :DD_Login_data</span>
+                <span class="reporter-method-output">Test Method Success :DD_Login_data</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">DD_Registration_data(admin, Admin , Manager, am@maxima.com, am@maxima.com, admin)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Method Start :DD_Registration_data</span>
+                <span class="reporter-method-output">Test Method Success :DD_Registration_data</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">DD_Login_data(ashingote, ashingote)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Method Start :DD_Login_data</span>
+                <span class="reporter-method-output">Test Method Success :DD_Login_data</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">DD_Login_data(ketan, ketan@123)</span>
               <div class="reporter-method-output-div">
@@ -297,33 +460,48 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">login</span>
+              <span class="reporter-method-name">DD_Registration_data</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test Method Start :login</span>
-                <span class="reporter-method-output">Test Method Success :login</span>
+                <span class="reporter-method-output">Test Method Skipped :DD_Registration_data</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">DD_Login_data(hitesh, hitesh@123)</span>
+              <span class="reporter-method-name">DD_Registration_data</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test Method Start :DD_Login_data</span>
-                <span class="reporter-method-output">Test Method Success :DD_Login_data</span>
+                <span class="reporter-method-output">Test Method Skipped :DD_Registration_data</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">DD_Login_data(ashingote, ashingote)</span>
+              <span class="reporter-method-name">DD_Registration_data</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test Method Start :DD_Login_data</span>
-                <span class="reporter-method-output">Test Method Success :DD_Login_data</span>
+                <span class="reporter-method-output">Test Method Skipped :DD_Registration_data</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">6 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TEST.Test_DataProviderATSRegistration</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startReport</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TEST.Test_ATS_Registration</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startReport</span>
+                <br/>
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
               <span class="ignored-class-name">TEST.TestDataProviderATSLogin</span>
               <div class="ignored-methods-div">
@@ -348,74 +526,153 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">preCondition(Chrome)</span>
-                <span class="method-start">283 ms</span>
+                <span class="method-start">215 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">login</span>
-                <span class="method-start">4840 ms</span>
+                <span class="method-start">4587 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postCondition</span>
-                <span class="method-start">12816 ms</span>
+                <span class="method-start">12362 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TEST.Test_ATS_Registration</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">preCondition(Chrome)</span>
+                <span class="method-start">12552 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registration</span>
+                <span class="method-start">16704 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">postCondition</span>
+                <span class="method-start">20236 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TEST.Test_DataProviderATSRegistration</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">preCondition(Chrome)</span>
+                <span class="method-start">23194 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DD_Registration_data(admin, Admin , Manager, am@maxima.com, am@maxima.com, admin)</span>
+                <span class="method-start">26826 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">aftertestmethod</span>
+                <span class="method-start">30166 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">postCondition</span>
+                <span class="method-start">30174 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">preCondition(Chrome)</span>
+                <span class="method-start">30361 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">postCondition</span>
+                <span class="method-start">34015 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">preCondition(Chrome)</span>
+                <span class="method-start">36350 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">postCondition</span>
+                <span class="method-start">40020 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">preCondition(Chrome)</span>
+                <span class="method-start">40205 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">postCondition</span>
+                <span class="method-start">43979 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TEST.TestDataProviderATSLogin</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">preCondition(Chrome)</span>
-                <span class="method-start">15744 ms</span>
+                <span class="method-start">44331 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">DD_Login_data(hitesh, hitesh@123)</span>
-                <span class="method-start">20161 ms</span>
+                <span class="method-start">48044 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postCondition</span>
-                <span class="method-start">32001 ms</span>
+                <span class="method-start">59578 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">preCondition(Chrome)</span>
-                <span class="method-start">32172 ms</span>
+                <span class="method-start">61792 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">DD_Login_data(manish, manish@123)</span>
-                <span class="method-start">36196 ms</span>
+                <span class="method-start">65402 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postCondition</span>
-                <span class="method-start">44178 ms</span>
+                <span class="method-start">73110 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">preCondition(Chrome)</span>
-                <span class="method-start">44426 ms</span>
+                <span class="method-start">73390 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">DD_Login_data(ketan, ketan@123)</span>
-                <span class="method-start">48790 ms</span>
+                <span class="method-start">76975 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postCondition</span>
-                <span class="method-start">60722 ms</span>
+                <span class="method-start">88576 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">preCondition(Chrome)</span>
-                <span class="method-start">61301 ms</span>
+                <span class="method-start">88750 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">DD_Login_data(ashingote, ashingote)</span>
-                <span class="method-start">65256 ms</span>
+                <span class="method-start">92306 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postCondition</span>
-                <span class="method-start">77029 ms</span>
+                <span class="method-start">104001 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">aftertestmethod</span>
+                <span class="method-start">104259 ms</span>
+              </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TEST.TestLogin</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">endReport</span>
-                <span class="method-start">77236 ms</span>
+                <span class="method-start">104595 ms</span>
               </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TEST.Test_DataProviderATSRegistration</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">DD_Registration_data</span>
+                <span class="method-start">-1576155661184 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DD_Registration_data</span>
+                <span class="method-start">-1576155661184 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DD_Registration_data</span>
+                <span class="method-start">-1576155661184 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

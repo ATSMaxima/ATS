@@ -29,6 +29,7 @@ public class Test_ATS_Registration extends BaseTest{
 			ar.logoutlist();
 			ar.logoutClick();
 		}
+		CommonActions.softAssert();
 	}
 
 }
