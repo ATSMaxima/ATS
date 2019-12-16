@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="105.662" tests="14" errors="0" skipped="6" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="342.968" tests="45" errors="0" skipped="34" failures="3">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jre1.8.0_161\bin"/>
-    <property name="sun.java.command" value="C:\Users\AMOL~1.SHI\AppData\Local\Temp\surefire1555380790585028472\surefirebooter305163250825541114.jar C:\Users\amol.shingote\AppData\Local\Temp\surefire1555380790585028472 2019-12-12T18-30-59_748-jvmRun1 surefire8357986305850279016tmp surefire_01510925311119161135tmp"/>
+    <property name="sun.java.command" value="C:\Users\AMOL~1.SHI\AppData\Local\Temp\surefire587535782765551321\surefirebooter4139064910186540166.jar C:\Users\amol.shingote\AppData\Local\Temp\surefire587535782765551321 2019-12-16T15-46-54_376-jvmRun1 surefire8935589938877463862tmp surefire_04119608474145169346tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\amol.shingote\Desktop\ATS-Framework\ATS_HR\target\test-classes;C:\Users\amol.shingote\Desktop\ATS-Framework\ATS_HR\target\classes;C:\Users\amol.shingote\.m2\repository\com\aventstack\extentreports\4.0.6\extentreports-4.0.6.jar;C:\Users\amol.shingote\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\amol.shingote\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\amol.shingote\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\amol.shingote\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\amol.shingote\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\amol.shingote\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\amol.shingote\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\amol.shingote\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.10\jxl-2.6.10.jar;C:\Users\amol.shingote\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar;C:\Users\amol.shingote\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\amol.shingote\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\amol.shingote\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\amol.shingote\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\amol.shingote\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\amol.shingote\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\amol.shingote\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\amol.shingote\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\amol.shingote\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\amol.shingote\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\amol.shingote\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\amol.shingote\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\amol.shingote\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\amol.shingote\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\amol.shingote\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\amol.shingote\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\amol.shingote\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\amol.shingote\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\amol.shingote\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\amol.shingote\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\amol.shingote\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\amol.shingote\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\amol.shingote\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\amol.shingote\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\amol.shingote\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\amol.shingote\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\amol.shingote\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\amol.shingote\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\amol.shingote\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\amol.shingote\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\amol.shingote\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\amol.shingote\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\amol.shingote\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\amol.shingote\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\amol.shingote"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\AMOL~1.SHI\AppData\Local\Temp\surefire1555380790585028472\surefirebooter305163250825541114.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\AMOL~1.SHI\AppData\Local\Temp\surefire587535782765551321\surefirebooter4139064910186540166.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jre1.8.0_161\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_161\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_161\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_161\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_161\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_161\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_161\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_161\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
@@ -60,18 +60,52 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="login" classname="TEST.TestLogin" time="7.774"/>
-  <testcase name="registration" classname="TEST.Test_ATS_Registration" time="3.532"/>
-  <testcase name="DD_Registration_data" classname="TEST.Test_DataProviderATSRegistration" time="3.342"/>
+  <testcase name="registration" classname="TEST.Test_ATS_Registration" time="3.321"/>
+  <testcase name="login" classname="TEST.TestLogin" time="7.551"/>
+  <testcase name="addCandidateManually" classname="TEST.Test_ATS_AddCandidate" time="48.961">
+    <failure message="element not interactable&#10;  (Session info: chrome=79.0.3945.79)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;MXITD037&apos;, ip: &apos;192.168.10.225&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\AMOL~1.SHI\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:53998}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 75e9d7535d6d9a5b9dac6b779fc312c3" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=79.0.3945.79)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MXITD037', ip: '192.168.10.225', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\AMOL~1.SHI\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:53998}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 75e9d7535d6d9a5b9dac6b779fc312c3
+	at TEST.Test_ATS_AddCandidate.addCandidateManually(Test_ATS_AddCandidate.java:31)
+</failure>
+    <system-out><![CDATA[Test Method Start :addCandidateManually
+UPDATES
+CANDIDATES
+---------
+External Source
+---------
+Dice.com
+Naukri
+Test Method Failed : addCandidateManually
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 32717
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1576491440.634][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
+Dec 16, 2019 3:47:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="addJob" classname="TEST.Test_Add_Job" time="70.155"/>
+  <testcase name="DD_Login_data" classname="TEST.TestDataProviderATSLogin" time="11.452"/>
+  <testcase name="DD_Login_data" classname="TEST.TestDataProviderATSLogin" time="7.717"/>
+  <testcase name="DD_Login_data" classname="TEST.TestDataProviderATSLogin" time="11.531"/>
+  <testcase name="DD_Login_data" classname="TEST.TestDataProviderATSLogin" time="11.708"/>
+  <testcase name="DD_Registration_data" classname="TEST.Test_DataProviderATSRegistration" time="3.294"/>
   <testcase name="DD_Registration_data" classname="TEST.Test_DataProviderATSRegistration" time="0">
     <skipped/>
     <system-out><![CDATA[Test Method Skipped :DD_Registration_data
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 21515
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 22867
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1576155692.690][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
-Dec 12, 2019 6:31:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1576491637.715][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
+Dec 16, 2019 3:50:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
@@ -79,11 +113,11 @@ INFO: Detected dialect: W3C
     <skipped/>
     <system-out><![CDATA[Test Method Skipped :DD_Registration_data
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 10840
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 29646
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1576155698.696][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
-Dec 12, 2019 6:31:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1576491641.500][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
+Dec 16, 2019 3:50:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
@@ -91,15 +125,183 @@ INFO: Detected dialect: W3C
     <skipped/>
     <system-out><![CDATA[Test Method Skipped :DD_Registration_data
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 41468
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 43446
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1576155702.634][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
-Dec 12, 2019 6:31:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1576491645.355][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
+Dec 16, 2019 3:50:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="aftertestmethod" classname="TEST.Test_DataProviderATSRegistration" time="3.348">
+  <testcase name="DD_Registration_data" classname="TEST.Test_DataProviderATSRegistration" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test Method Skipped :DD_Registration_data
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 8579
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1576491649.152][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
+Dec 16, 2019 3:50:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="DD_Registration_data" classname="TEST.Test_DataProviderATSRegistration" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test Method Skipped :DD_Registration_data
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 47814
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1576491653.502][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
+Dec 16, 2019 3:50:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="DD_Registration_data" classname="TEST.Test_DataProviderATSRegistration" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test Method Skipped :DD_Registration_data
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 39196
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1576491657.215][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
+Dec 16, 2019 3:50:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="DD_Registration_data" classname="TEST.Test_DataProviderATSRegistration" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test Method Skipped :DD_Registration_data
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 20393
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1576491661.102][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
+Dec 16, 2019 3:51:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="DD_Registration_data" classname="TEST.Test_DataProviderATSRegistration" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test Method Skipped :DD_Registration_data
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 33126
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1576491665.655][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
+Dec 16, 2019 3:51:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="DD_Registration_data" classname="TEST.Test_DataProviderATSRegistration" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test Method Skipped :DD_Registration_data
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 47841
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1576491669.510][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
+Dec 16, 2019 3:51:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="DD_Registration_data" classname="TEST.Test_DataProviderATSRegistration" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test Method Skipped :DD_Registration_data
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 22950
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1576491673.372][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
+Dec 16, 2019 3:51:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="DD_Registration_data" classname="TEST.Test_DataProviderATSRegistration" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test Method Skipped :DD_Registration_data
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 47732
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1576491677.384][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
+Dec 16, 2019 3:51:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="DD_Registration_data" classname="TEST.Test_DataProviderATSRegistration" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test Method Skipped :DD_Registration_data
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 27274
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1576491681.106][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
+Dec 16, 2019 3:51:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="DD_Registration_data" classname="TEST.Test_DataProviderATSRegistration" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test Method Skipped :DD_Registration_data
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 1753
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1576491687.113][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
+Dec 16, 2019 3:51:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="DD_Registration_data" classname="TEST.Test_DataProviderATSRegistration" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test Method Skipped :DD_Registration_data
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 2384
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1576491691.064][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
+Dec 16, 2019 3:51:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="DD_Registration_data" classname="TEST.Test_DataProviderATSRegistration" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test Method Skipped :DD_Registration_data
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 13712
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1576491696.820][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
+Dec 16, 2019 3:51:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="DD_Registration_data" classname="TEST.Test_DataProviderATSRegistration" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test Method Skipped :DD_Registration_data
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 11576
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1576491700.668][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
+Dec 16, 2019 3:51:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="DD_Registration_data" classname="TEST.Test_DataProviderATSRegistration" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test Method Skipped :DD_Registration_data
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 47219
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1576491704.585][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
+Dec 16, 2019 3:51:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="aftertestmethod" classname="TEST.Test_DataProviderATSRegistration" time="3.294">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 	at TEST.Test_DataProviderATSRegistration.aftertestmethod(Test_DataProviderATSRegistration.java:48)
 </failure>
@@ -113,8 +315,75 @@ INFO: Detected dialect: W3C
   <testcase name="aftertestmethod" classname="TEST.Test_DataProviderATSRegistration" time="0">
     <skipped/>
   </testcase>
-  <testcase name="DD_Login_data" classname="TEST.TestDataProviderATSLogin" time="11.536"/>
-  <testcase name="DD_Login_data" classname="TEST.TestDataProviderATSLogin" time="7.708"/>
-  <testcase name="DD_Login_data" classname="TEST.TestDataProviderATSLogin" time="11.597"/>
-  <testcase name="DD_Login_data" classname="TEST.TestDataProviderATSLogin" time="11.692"/>
+  <testcase name="aftertestmethod" classname="TEST.Test_DataProviderATSRegistration" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="aftertestmethod" classname="TEST.Test_DataProviderATSRegistration" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="aftertestmethod" classname="TEST.Test_DataProviderATSRegistration" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="aftertestmethod" classname="TEST.Test_DataProviderATSRegistration" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="aftertestmethod" classname="TEST.Test_DataProviderATSRegistration" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="aftertestmethod" classname="TEST.Test_DataProviderATSRegistration" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="aftertestmethod" classname="TEST.Test_DataProviderATSRegistration" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="aftertestmethod" classname="TEST.Test_DataProviderATSRegistration" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="aftertestmethod" classname="TEST.Test_DataProviderATSRegistration" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="aftertestmethod" classname="TEST.Test_DataProviderATSRegistration" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="aftertestmethod" classname="TEST.Test_DataProviderATSRegistration" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="aftertestmethod" classname="TEST.Test_DataProviderATSRegistration" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="aftertestmethod" classname="TEST.Test_DataProviderATSRegistration" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="aftertestmethod" classname="TEST.Test_DataProviderATSRegistration" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="resumeUpload" classname="TEST.Test_ATS_AddCandidate" time="46.268">
+    <failure message="element not interactable&#10;  (Session info: chrome=79.0.3945.79)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;MXITD037&apos;, ip: &apos;192.168.10.225&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\AMOL~1.SHI\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:54469}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: d2a60c22d2e184d247fb3b095289e51a" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=79.0.3945.79)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MXITD037', ip: '192.168.10.225', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\AMOL~1.SHI\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:54469}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d2a60c22d2e184d247fb3b095289e51a
+	at TEST.Test_ATS_AddCandidate.resumeUpload(Test_ATS_AddCandidate.java:56)
+</failure>
+    <system-out><![CDATA[Test Method Start :resumeUpload
+UPDATES
+CANDIDATES
+---------
+External Source
+---------
+Dice.com
+Naukri
+Test Method Failed : resumeUpload
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 28002
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1576491708.415][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
+Dec 16, 2019 3:51:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
 </testsuite>

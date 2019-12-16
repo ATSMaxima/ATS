@@ -5,6 +5,7 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 
+import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
@@ -49,8 +50,8 @@ public class Listener extends BaseTest implements ITestListener{
 			l.log(Status.FAIL,MarkupHelper.createLabel("Test Case Failed is :"+str, ExtentColor.RED));
 			l.log(Status.FAIL,MarkupHelper.createLabel(result.getThrowable() + " - Test Case Failed", ExtentColor.RED));
 			try {
-				//l.fail(result.getThrowable().getMessage(),MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
-				l.addScreenCaptureFromPath(temp);
+				l.fail(result.getThrowable().getMessage(),MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
+				//l.addScreenCaptureFromPath(temp);
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -67,6 +68,7 @@ public class Listener extends BaseTest implements ITestListener{
 		{
 			// logger.log(Status.SKIP, "Test Case Skipped is :"+result.getName());
 			l.log(Status.SKIP, MarkupHelper.createLabel("Test Case Skipped is :"+str, ExtentColor.ORANGE));
+			l.log(Status.SKIP,MarkupHelper.createLabel(result.getThrowable() + " - Test Case Skipped", ExtentColor.ORANGE));
 		}
 		Reporter.log("Test Method Skipped :"+ str,true);
 	}

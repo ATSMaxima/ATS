@@ -4,6 +4,16 @@
   <test thread-count="5" verbose="0" name="Smoke(failed)">
     <parameter name="browsername" value="Chrome"/>
     <classes>
+      <class name="TEST.Test_ATS_AddCandidate">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+          <include name="startReport"/>
+          <include name="endReport"/>
+          <include name="addCandidateManually"/>
+          <include name="resumeUpload"/>
+        </methods>
+      </class> <!-- TEST.Test_ATS_AddCandidate -->
       <class name="TEST.Test_DataProviderATSRegistration">
         <methods>
           <include name="aftertestmethod"/>
