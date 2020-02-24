@@ -1,30 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 45, Failures: 3, Errors: 0, Skipped: 34, Time elapsed: 342.968 s <<< FAILURE! - in TestSuite
-addCandidateManually(TEST.Test_ATS_AddCandidate)  Time elapsed: 48.961 s  <<< FAILURE!
-org.openqa.selenium.ElementNotInteractableException: 
-element not interactable
-  (Session info: chrome=79.0.3945.79)
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 40.528 s <<< FAILURE! - in TestSuite
+seacrchCandidate(TEST.Test_ATS_AddCandidate)  Time elapsed: 10.614 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'MXITD037', ip: '192.168.10.225', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_161'
+System info: host: 'MXITD037', ip: '192.168.10.129', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\AMOL~1.SHI\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:53998}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 75e9d7535d6d9a5b9dac6b779fc312c3
-	at TEST.Test_ATS_AddCandidate.addCandidateManually(Test_ATS_AddCandidate.java:31)
-
-aftertestmethod(TEST.Test_DataProviderATSRegistration)  Time elapsed: 3.294 s  <<< FAILURE!
-java.lang.NullPointerException
-	at TEST.Test_DataProviderATSRegistration.aftertestmethod(Test_DataProviderATSRegistration.java:48)
-
-resumeUpload(TEST.Test_ATS_AddCandidate)  Time elapsed: 46.268 s  <<< FAILURE!
-org.openqa.selenium.ElementNotInteractableException: 
-element not interactable
-  (Session info: chrome=79.0.3945.79)
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'MXITD037', ip: '192.168.10.225', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\AMOL~1.SHI\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:54469}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d2a60c22d2e184d247fb3b095289e51a
-	at TEST.Test_ATS_AddCandidate.resumeUpload(Test_ATS_AddCandidate.java:56)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\AMOL~1.SHI\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:53387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 635e12ebe2b3a587752523aaab3ea856
+*** Element info: {Using=name, value=username}
+	at TEST.Test_ATS_AddCandidate.seacrchCandidate(Test_ATS_AddCandidate.java:87)
 

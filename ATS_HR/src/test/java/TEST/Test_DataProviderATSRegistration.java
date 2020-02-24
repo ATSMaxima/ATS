@@ -9,12 +9,13 @@ import Generic.ExcelReader;
 import POM.ATS_Login;
 import POM.ATS_Registration;
 
-public class Test_DataProviderATSRegistration extends BaseTest{
-	String str = null ;
-	int count = 1 ;
-	@Test(dataProvider="Authentication")
-	public void DD_Registration_data(String user, String name, String lastname, String emailID, String emailconfirm, String pwd)
-	{
+public class Test_DataProviderATSRegistration extends BaseTest {
+	String str = null;
+	int count = 1;
+
+	@Test(dataProvider = "Authentication")
+	public void DD_Registration_data(String user, String name, String lastname, String emailID, String emailconfirm,
+			String pwd) {
 		l = extent.createTest("DD_Registration_data");
 		ATS_Login al = new ATS_Login(driver);
 		al.newUserClick();
@@ -26,38 +27,31 @@ public class Test_DataProviderATSRegistration extends BaseTest{
 		ar.confirmEmail(emailconfirm);
 		ar.password(pwd);
 		ar.submitBtn();
-		String str= driver.getTitle();
+		str = driver.getTitle();
 		CommonActions.waitTime(2000);
-		System.out.println("Title of page is : " +str);
-		if(str.contains("Applicant Tracking System"))
-		{
+		System.out.println("Title of page is : " + str);
+		if (str.contains("Applicant Tracking System")) {
 			ar.logoutlist();
 			ar.logoutClick();
 		}
 		CommonActions.softAssert();
 	}
-	
+
 	@DataProvider
-	public Object[][] Authentication() throws Exception
-	{
-		Object[][] testObjArray = ExcelReader.getTableArray(DD_Registration_EXCEL,SHEET_NAME);
+	public Object[][] Authentication() throws Exception {
+		Object[][] testObjArray = ExcelReader.getTableArray(DD_Registration_EXCEL, SHEET_NAME);
 		return testObjArray;
 	}
+
 	@AfterMethod
-	public void aftertestmethod (){
+	public void aftertestmethod() {
+		System.out.println(str);
 		if (str.equalsIgnoreCase("Applicant Tracking System")) {
-			ExcelReader.setExcelData("Sheet1", count, 2, "pass", DD_Registration_EXCEL);
-			System.out.println("Test Case is Passed "+count+"----");
-		
-			
-		} else  {
-			
-			ExcelReader.setExcelData("Sheet1", count, 2, "fail", DD_Registration_EXCEL);
-			System.out.println("Test Case is Failed " +count+ "-----");			
-			
+			ExcelReader.setExcelData("Sheet1", count, "pass", DD_Registration_EXCEL);
+		} else {
+			ExcelReader.setExcelData("Sheet1", count, "fail", DD_Registration_EXCEL);
 		}
-		count++ ;		
-		
+		count++;
 	}
 
 }

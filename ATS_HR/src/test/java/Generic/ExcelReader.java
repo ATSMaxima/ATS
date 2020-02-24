@@ -65,13 +65,14 @@ public class ExcelReader implements AutoConstants {
 
 	// write data in excel
 
-	public static void setExcelData(String sheetname, int rownum, int cellnum, String value, String excelPath) {
+	public static void setExcelData(String sheetname, int rownum, String value, String excelPath) {
 		String path = excelPath;
 		try {
 			ExcelWBook = WorkbookFactory.create(new FileInputStream(path));
 			ExcelWSheet = ExcelWBook.getSheet(sheetname);
 			row = ExcelWSheet.getRow(rownum);
-			cell = row.createCell(cellnum);
+			int cellNo = ExcelWSheet.getRow(0).getLastCellNum();
+			cell = row.createCell(cellNo);
 			cell.setCellValue(value);
 			ExcelWBook.write(new FileOutputStream(path));
 		} catch (Exception e) {

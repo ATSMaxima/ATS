@@ -1,6 +1,7 @@
 package POM;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -27,8 +28,10 @@ public class Add_Candidate extends Base_CommonComponent{
 	private List<WebElement> sourceList;
 	@FindBy(xpath = "//select[@id='id_sourced_by']")
 	private WebElement sourceBy;
+	
 	@FindBy(xpath = "//select[@id='id_sourced_by']//option")
 	private List<WebElement> sourceByList;
+	
 	@FindBy(xpath = "//div[contains(text(),'First Name is required!')]")
 	private WebElement errorFirstName;
 	@FindBy(xpath = "//div[contains(text(),'Last Name is required!')]")
@@ -41,6 +44,8 @@ public class Add_Candidate extends Base_CommonComponent{
 	private List<WebElement> jobTitleList;
 	@FindBy(xpath = "(//button[contains(text(),'Add Candidate')])[1]")
 	private WebElement addCandidateSubmitBtn;
+	@FindBy(xpath = "//tbody/tr/td[1]")
+	private List<WebElement> topCandidateName;
 	// *************************************************************************
 	@FindBy(xpath = "//div[@id='withoutResume']")
 	private WebElement continueWithoutResume;
@@ -52,12 +57,18 @@ public class Add_Candidate extends Base_CommonComponent{
 	private WebElement email;
 	@FindBy(xpath = "//input[@name='phone']")
 	private WebElement phoneNumber;
-
-	// ************************************************************
+	//**************************************************************************
+	@FindBy(xpath = "//label//input[@type='search']")
+	private WebElement searchBox;
+	@FindBy(xpath = "//a[contains(text(),'Next')]")
+	private WebElement searchNextBtn;
+	
+	//**************************************************************************
+	//Constructor
 	public Add_Candidate(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
-	// ************************************************************
+	//**************************************************************************
 
 	public void homeButtonClick() {
 		CommonActions.waitTime(2000);
@@ -69,9 +80,9 @@ public class Add_Candidate extends Base_CommonComponent{
 		CommonActions.selectListComponent(homeBtnList, "CANDIDATES");
 	}
 
-	public void addCandidateButton() {
+	public WebElement addCandidateButton() {
 		CommonActions.waitTime(2000);
-		addCandidateBtn.click();
+		return addCandidateBtn;
 	}
 
 	public void browseResumeButton(WebDriver driver) {
@@ -146,5 +157,27 @@ public class Add_Candidate extends Base_CommonComponent{
 		CommonActions.waitTime(2000);
 		phoneNumber.sendKeys(number);
 	}
-
+	
+//	public void topCandidateNameFromTable(WebDriver driver, String str1)
+//	{
+//		CommonActions.visibilityOfElement(driver, 30, topCandidateName);
+//		boolean result = CommonActions.getTextAndVerify(topCandidateName, str1);
+//		System.out.println("Added Candidate is Displayed at Top :" + result  );
+//	}
+	//***************************************************************************
+	public void elementPresentInList(WebDriver driver, String str1)
+	{
+		driver.manage().timeouts().implicitlyWait(180, TimeUnit.SECONDS);
+		CommonActions.verifyListComponent(topCandidateName, nextBtn, str1);
+	}
+	//***************************************************************************
+	public void searchCandidate(String candidateName)
+	{
+		CommonActions.waitTime(2000);
+		searchBox.sendKeys(candidateName);
+		CommonActions.waitTime(2000);
+		CommonActions.verifyListComponent(topCandidateName, searchNextBtn, candidateName);
+	}
+	
+	
 }

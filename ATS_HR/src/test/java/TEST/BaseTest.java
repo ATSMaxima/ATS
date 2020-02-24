@@ -1,6 +1,6 @@
 package TEST;
 
-import java.util.concurrent.TimeUnit; 
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -22,9 +22,10 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 import Generic.AutoConstants;
 import Generic.PropertyFileReader;
 
+//(package name in which listener class is present).(classname).(class)
 @Listeners(Generic.Listener.class)
 public class BaseTest implements AutoConstants{
-public static WebDriver driver;
+public static WebDriver driver = null;
 	
 	public static ExtentHtmlReporter htmlReporter;
 	public static ExtentReports extent;
@@ -51,6 +52,7 @@ public static WebDriver driver;
 	@BeforeMethod(alwaysRun=true)
 	public void preCondition(@Optional("abc") String browsername)
 	{
+		if(driver == null){
 		if(browsername.equalsIgnoreCase("Firefox"))
 		{
 			System.setProperty(GeckoExe, GeckoPath);
@@ -72,17 +74,18 @@ public static WebDriver driver;
 		String str = PropertyFileReader.getPropertyValue("url");
 		driver.get(str);
 	}
+	}
 	
 	@AfterMethod(alwaysRun=true)
 	public void postCondition()
 	{
 		driver.close();
+		driver = null;
 	}
 	
 	@AfterTest
 	public void endReport() 
 	{
 		extent.flush();
-		//extent.close();
 	}
 }

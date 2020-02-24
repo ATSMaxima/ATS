@@ -10,20 +10,9 @@
           <include name="postCondition"/>
           <include name="startReport"/>
           <include name="endReport"/>
-          <include name="addCandidateManually"/>
-          <include name="resumeUpload"/>
+          <include name="seacrchCandidate"/>
         </methods>
       </class> <!-- TEST.Test_ATS_AddCandidate -->
-      <class name="TEST.Test_DataProviderATSRegistration">
-        <methods>
-          <include name="aftertestmethod"/>
-          <include name="preCondition"/>
-          <include name="postCondition"/>
-          <include name="DD_Registration_data"/>
-          <include name="startReport"/>
-          <include name="endReport"/>
-        </methods>
-      </class> <!-- TEST.Test_DataProviderATSRegistration -->
     </classes>
   </test> <!-- Smoke(failed) -->
 </suite> <!-- Failed suite [Suite] -->

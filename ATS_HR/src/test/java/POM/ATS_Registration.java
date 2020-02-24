@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import Generic.CommonActions;
+
 public class ATS_Registration extends Base_CommonComponent{
 	@FindBy(xpath = "//input[@name='username']")
 	private WebElement userName;
@@ -28,34 +30,42 @@ public class ATS_Registration extends Base_CommonComponent{
 	}
 
 	public void userName(String user) {
+		CommonActions.waitTime(2000);
 		userName.sendKeys(user);
 	}
 
 	public void firstName(String name) {
+		CommonActions.waitTime(2000);
 		firstName.sendKeys(name);
 	}
 
 	public void lastName(String lastname) {
+		CommonActions.waitTime(2000);
 		lastName.sendKeys(lastname);
 	}
 
 	public void email(String emailID) {
+		CommonActions.waitTime(2000);
 		email.sendKeys(emailID);
 	}
 
 	public void confirmEmail(String emailconfirm) {
+		CommonActions.waitTime(2000);
 		confirmEmail.sendKeys(emailconfirm);
 	}
 
 	public void password(String pwd) {
+		CommonActions.waitTime(2000);
 		password.sendKeys(pwd);
 	}
 
 	public void submitBtn() {
+		CommonActions.waitTime(2000);
 		submitBtn.click();
 	}
 
 	public void clickHereToLogin() {
+		CommonActions.waitTime(2000);
 		clickHereToLogin.click();
 	}
 

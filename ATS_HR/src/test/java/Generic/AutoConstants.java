@@ -18,7 +18,7 @@ public interface AutoConstants {
 	String SCREENSHOT_LOC = "../ATS_HR/FailedScreenShots/";
 	String DD_LOGIN_EXCEL = "../ATS_HR/ExcelFiles/ATS_Login_1.xlsx";
 	String SHEET_NAME = "Sheet1";
-	String DD_Registration_EXCEL = "../ATS_HR/ExcelFiles/ATS_Registration_3.xlsx";
+	String DD_Registration_EXCEL = "../ATS_HR/ExcelFiles/ATS_Registration_4.xlsx";
 	
 // Waits
 	int waitTime = 60;
@@ -33,9 +33,13 @@ public interface AutoConstants {
 	String profileUrl = "www.linkedin.com/ashingote";
 	
 //Manually Enter Information
-	String FirstName = "Amol";
-	String LastName = "Shingote";
-	String Email = "ashingote@maximaconsulting.net";
-	String Phone = "9876567881";
+	String FirstName = "RakeeshAaBB";
+	String LastName = "PaatilabBAA";
+	String Email = "rpaatilaABbAA@maximaconsulting.net";
+	String Phone = "9886600914";
+	String fullName = FirstName+" "+LastName;
+
+//Search candidate
+	String CandidateName = "Amol Shingote";
 	
 }
