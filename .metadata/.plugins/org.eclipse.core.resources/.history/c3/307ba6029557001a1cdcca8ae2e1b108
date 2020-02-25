@@ -41,6 +41,6 @@ public interface AutoConstants {
 
 //Search candidate
 	String CandidateName = "Amol Shingote";
-	String Username = "abc";
+	String Username = "xyz";
 	
 }
